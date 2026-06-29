@@ -2,6 +2,7 @@
 
 HOW TO USE:
 
+```text
 project/
 ├── src/
 │   ├── main.py
@@ -9,5 +10,5 @@ project/
 │   └── config.py
 ├── docs/
 │   └── README.md
-├── tests/
-└── README.md
+└── tests/
+```
