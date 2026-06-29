@@ -2,11 +2,11 @@
 
 HOW TO USE:
 
-data-pipeline/
-├── data-1/
+project/
+├── src/
 │   ├── main.py
-│   ├── eg.py
-│   └── folder
+│   ├── utils.py
+│   └── config.py
 ├── docs/
 │   └── README.md
 ├── tests/
