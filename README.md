@@ -55,23 +55,9 @@ data-pipeline/
     - [ ] Run insta-grab for leaders + parties
     - [ ] write + run data-pipeline/scripts/reorganise-comparative-countries.py
   - **Data analysis**
+  - 
+### Data Structure
 
-Data analysis 
-
-Data Processing
-
-#### One Nation
-**00_raw**: Raw data from the source
-
-**01_ingest**: Unzipped and ingested
-
-**02_filter**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)
-
-**03_deduplicate**: Multiple copies of the same videos/images removed
-
-**04_format**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}
-
-#### Comparative Countries
 **00_raw**: Raw data from the source
 
 **01_ingest**: Unzipped and ingested
@@ -97,6 +83,9 @@ good quesiton
 coding i am still ehhhh - i think as many tags as possible would be good - i.e. deepfakes, pure-ai, etc.
 
 Note: Videos are too large to be stored within the repo, hence this is images only
+
+## FAQ
+Help
 
 ![Architecture](docs/data-pipeline.svg)
 
