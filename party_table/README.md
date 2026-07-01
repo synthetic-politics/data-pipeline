@@ -1,32 +1,32 @@
-| Country¹ | Party | Party URL | Leader | Leader URL | Election Date End² | Scrape Date³ | Election Post-2024?⁴ | Notes |
-|---|---|---|---|---|---|---|---|---|
-| Australia | One Nation | https://www.instagram.com/onenationoz/ | Pauline Hanson | https://www.instagram.com/senatorpaulinehanson | 03 May 2025 | 03 January 2025 | TRUE | |
-| Canada | People's Party of Canada | https://www.instagram.com/peoplespca | Maxime Bernier | https://www.instagram.com/hon.maximebernier | 28 April 2025 | 29 December 2024 | TRUE | |
-| United Kingdom | Reform UK | https://www.instagram.com/thereformpartyuk | Nigel Farage | https://www.instagram.com/nigel_farage | 04 July 2024 | 06 March 2024 | TRUE | |
-| **—** | | | | | | | | |
-| France | National Rally | https://www.instagram.com/rassemblementnational_fr | Jordan Bardella | https://www.instagram.com/jordanbardella | 07 July 2024 | 02 March 2024 | TRUE | ⁵ |
-| Netherlands | Party for Freedom | https://www.instagram.com/partijvoordevrijheidnl | Geert Wilders | https://www.instagram.com/geertwilders | 29 October 2025 | 01 July 2025 | TRUE | |
-| Norway | Progress Party | https://www.instagram.com/fremskrittspartiet/ | Sylvi Listhaug | https://www.instagram.com/sylvi_listhaug | 08 September 2025 | 11 May 2025 | TRUE | |
-| **—** | | | | | | | | |
-| Belgium | Vlaams Belang | https://www.instagram.com/vlaamsbelang | Tom Van Grieken | https://www.instagram.com/vangriekentom | 09 June 2024 | 10 February 2024 | TRUE | |
-| Germany | Alternative for Germany | https://www.instagram.com/afd.bund | Alice Weidel | https://www.instagram.com/alice.weidel | 23 February 2025 | 26 October 2024 | TRUE | |
-| **—** | | | | | | | | |
-| EU Election | Patriots for Europe | https://www.instagram.com/patriotsep/ | Jordan Bardella | https://www.instagram.com/jordanbardella | 09 June 2024 | 07 February 2024 | TRUE | ⁶ |
-| **EXCLUSIONS** | | | | | | | | |
-| New Zealand | New Zealand Loyal | N/A | Elizabeth Cooney (Liz Gunn) | N/A | 14 October 2023 | 16 June 2023 | FALSE | ⁷ |
-| United States of America | GOP | https://www.instagram.com/republicans/ | Donald Trump | https://www.instagram.com/realdonaldtrump | 05 November 2024 | 08 July 2024 | TRUE | ⁸ |
-| Denmark | Danish People's Party | https://www.instagram.com/dansk_folkeparti_1995 | Morten Messerschmidt | https://www.instagram.com/mrmesserschmidt | 01 November 2022 | 04 July 2022 | FALSE | ⁹, ¹⁰ |
-| Italy | Brothers of Italy | https://www.instagram.com/fratelliditalia | Giorgia Meloni | https://www.instagram.com/giorgiameloni/ | 25 September 2022 | 28 May 2022 | FALSE | ¹⁰ |
-| Sweden | Sweden Democrats | https://www.instagram.com/sverigedemokraterna | Jimmie Åkesson | https://www.instagram.com/akesson.jimmie | 11 September 2022 | 14 May 2022 | FALSE | ¹⁰ |
-| Spain | Vox | https://www.instagram.com/vox_es | Santiago Abascal | https://www.instagram.com/santi_abascal | 23 July 2023 | 25 March 2023 | FALSE | ¹⁰ |
+| Country¹ | Party | Party Instagram | Leader | Leader Instagram | Election Date End² | Scrape Date³ |
+|---|---|---|---|---|---|---|
+| Australia | One Nation | [@onenationoz](https://www.instagram.com/onenationoz/) | Pauline Hanson | [@senatorpaulinehanson](https://www.instagram.com/senatorpaulinehanson) | 03 May 2025 | 03 Jan 2025 |
+| Canada | People's Party of Canada | [@peoplespca](https://www.instagram.com/peoplespca) | Maxime Bernier | [@hon.maximebernier](https://www.instagram.com/hon.maximebernier) | 28 Apr 2025 | 29 Dec 2024 |
+| United Kingdom | Reform UK | [@thereformpartyuk](https://www.instagram.com/thereformpartyuk) | Nigel Farage | [@nigel_farage](https://www.instagram.com/nigel_farage) | 04 July 2024 | 06 Mar 2024 |
+| **—** | | | | | | |
+| France | National Rally | [@rassemblementnational_fr](https://www.instagram.com/rassemblementnational_fr) | Jordan Bardella | [@jordanbardella](https://www.instagram.com/jordanbardella) | 07 July 2024⁵ | 02 Mar 2024 |
+| Netherlands | Party for Freedom | [@partijvoordevrijheidnl](https://www.instagram.com/partijvoordevrijheidnl) | Geert Wilders | [@geertwilders](https://www.instagram.com/geertwilders) | 29 Oct 2025 | 01 July 2025 |
+| Norway | Progress Party | [@fremskrittspartiet](https://www.instagram.com/fremskrittspartiet/) | Sylvi Listhaug | [@sylvi_listhaug](https://www.instagram.com/sylvi_listhaug) | 08 Sept 2025 | 11 May 2025 |
+| **—** | | | | | | |
+| Belgium | Vlaams Belang | [@vlaamsbelang](https://www.instagram.com/vlaamsbelang) | Tom Van Grieken | [@vangriekentom](https://www.instagram.com/vangriekentom) | 09 Jun 2024 | 10 Feb 2024 |
+| Germany | Alternative for Germany | [@afd.bund](https://www.instagram.com/afd.bund) | Alice Weidel | [@alice.weidel](https://www.instagram.com/alice.weidel) | 23 Feb 2025 | 26 Oct 2024 |
+| **—** | | | | | | |
+| EU Election | Patriots for Europe | [@patriotsep](https://www.instagram.com/patriotsep/) | Jordan Bardella | [@jordanbardella](https://www.instagram.com/jordanbardella) | 09 Jun 2024⁶ | 07 Feb 2024 |
+| **EXCLUSIONS** | | | | | | |
+| New Zealand⁷ | New Zealand Loyal | N/A | Elizabeth Cooney (Liz Gunn) | N/A | 14 Oct 2023 | 16 Jun 2023 |
+| United States of America⁸ | GOP | [@republicans](https://www.instagram.com/republicans/) | Donald Trump | [@realdonaldtrump](https://www.instagram.com/realdonaldtrump) | 05 Nov 2024 | 08 July 2024 |
+| Denmark⁹ | Danish People's Party | [@dansk_folkeparti_1995](https://www.instagram.com/dansk_folkeparti_1995) | Morten Messerschmidt | [@mrmesserschmidt](https://www.instagram.com/mrmesserschmidt) | 01 Nov 2022¹⁰ | 04 July 2022 |
+| Italy | Brothers of Italy | [@fratelliditalia](https://www.instagram.com/fratelliditalia) | Giorgia Meloni | [@giorgiameloni](https://www.instagram.com/giorgiameloni/) | 25 Sept 2022¹⁰ | 28 May 2022 |
+| Sweden | Sweden Democrats | [@sverigedemokraterna](https://www.instagram.com/sverigedemokraterna) | Jimmie Åkesson | [@akesson.jimmie](https://www.instagram.com/akesson.jimmie) | 11 Sept 2022¹⁰ | 14 May 2022 |
+| Spain | Vox | [@vox_es](https://www.instagram.com/vox_es) | Santiago Abascal | [@santi_abascal](https://www.instagram.com/santi_abascal) | 23 July 2023¹⁰ | 25 Mar 2023 |
 
 **Notes:**
 1. Ordered by 5, 9, 14 Eyes, the EU, Exclusions
 2. Multiple/multi-day elections for some
 3. From 120 days prior, longer for cases of (2)
 4. Limited AI use pre ~2024
-5. Elections on 30 June & 7 July (127 days)
-6. Election from June 6 to June 9 (123 days)
+5. Elections on 30 Jun & 7 July (127 days)
+6. Election from Jun 6 to Jun 9 (123 days)
 7. NZ First, Visions NZ and Freedom NZ are right-wing populist rather than far-right - NZ Loyal severe org issues, alt media platforms, deregistered + excluded due to time frame
 8. Excluded due to magnitude of advertising/infeasible analysis compared to others
 9. (Denmark Democrats…?)
