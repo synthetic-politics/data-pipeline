@@ -69,25 +69,16 @@ data-pipeline/
     - [ ] Run PaddleOCR on non-English images
     - [ ] Run WhisperAI on non-English videos
     
-### Data Structure Naming Scheme
+## Data Schema
 
-**00_raw**: Raw data from the source
-
-**01_ingested**: Unzipped and ready for processing
-
-**02_filtered**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)
-
-**03_deduplicated**: Multiple copies of the same videos/images removed - DO NOT DEDUPLICATE! MULTIPLE COPIES OF AI IMAGES OUGHT TO BE NOTED IN RESULTS!
-
-**04_formatted**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}
-
-**05_extraction**:
-  
-  **05.1_ocr_and_translate**: OCR extract text in foreign languages, save to ?json, translate json to english (PaddleOCR via API) \n
-  
-  **05.2_translate_and_transcribe**: whisper-AI in-memory translation, save to srt + txt... (txt may be hard to read?)
-
-
+ - **00_raw**: Raw data from the source
+ - **01_ingested**: Unzipped and ready for processing
+ - **02_filtered**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)
+ - **03_deduplicated**: Multiple copies of the same videos/images removed - DO NOT DEDUPLICATE! MULTIPLE COPIES OF AI IMAGES OUGHT TO BE NOTED IN RESULTS!
+ - **04_formatted**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}
+ - **05_extraction**:
+   - **05.1_ocr_and_translate**: OCR extract text in foreign languages, save to ?json, translate json to english (PaddleOCR via API) \n
+   - **05.2_translate_and_transcribe**: whisper-AI in-memory translation, save to srt + txt... (txt may be hard to read?)
 
 ### Other Thoughts
-coding i am still ehhhh - i think as many tags as possible would be good - i.e. deepfakes, pure-ai, repeated occurence of particular AI image/repost, etc.
+- for analysis step, coding i am still ehhhh - i think as many tags as possible would be good - i.e. deepfakes, pure-ai, repeated occurence of particular AI image/repost, etc.
