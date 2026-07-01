@@ -59,7 +59,6 @@ data-pipeline/
   - **Preliminary**
     - [x] Identify scraping tool for Instagram + check functionality
     - [x] Create spreadsheet with relevant parties
-    - [x] Identify timeframe of analysis
   - **Data Collection:**
     - [x] Run IG Grab for:
       - [x] Leaders
