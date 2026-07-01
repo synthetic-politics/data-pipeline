@@ -39,37 +39,36 @@ data-pipeline/
         └── settings.json
 ```
 ## Elle's infinite to-do list
-  - **One Nation**
-    - **Preliminary**
-      - [x] Identify platforms
-      - [x] Identify scraping tools
-      - [x] Check scraping tools are all functional
-    - **Data Collection:**
-      - [x] Instagram
-      - [x] Twitter
-      - [ ] FaceBook
-      - [ ] TikTok
-      - [ ] YouTube
-      - [ ] Party Website (Wayback)
-      - [ ] Physical Advertisements (Trove)
-    - **Data Processing:**
-      - [ ] Filter posts outside of date range
-      - [ ] Deduplicate data
-      - [ ] Format file structure
+### One Nation
+  - **Preliminary**
+    - [x] Identify scraping tools + check functionality
+  - **Data Collection:**
+    - [x] Instagram
+    - [x] Twitter
+    - [ ] FaceBook
+    - [ ] TikTok
+    - [ ] YouTube
+    - [ ] Party Website (Wayback)
+    - [ ] Physical Advertisements (Trove)
+  - **Data Processing:**
+    - [ ] Filter posts outside of date range
+    - [ ] Deduplicate data
+    - [ ] Format file structure
   
-  - **Comparative Countries**
-    - **Preliminary**
-      - [x] Identify scraping tool for Instagram
-      - [x] Create spreadsheet with relevant parties
-      - [x] Identify timeframe of analysis
-    - **Data Collection:**
-      - [x] Run IG Grab for:
-        - [x] Leaders
-        - [x] Parties
-    - **Data Processing**
-      - [x] Ingest and unzip bulk downloads
-      - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
-      - [ ] OCR 
+### Comparative Countries
+  - **Preliminary**
+    - [x] Identify scraping tool for Instagram + check functionality
+    - [x] Create spreadsheet with relevant parties
+    - [x] Identify timeframe of analysis
+  - **Data Collection:**
+    - [x] Run IG Grab for:
+      - [x] Leaders
+      - [x] Parties
+  - **Data Processing**
+    - [x] Ingest and unzip bulk downloads
+    - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
+    - [ ] Run PaddleOCR on non-English images
+    - [ ] Run WhisperAI on non-English videos
     
 ### Data Structure Explanation
 
