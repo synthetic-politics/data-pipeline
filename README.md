@@ -7,22 +7,31 @@ Note that in the repository on GitHub online, some of the data files (raw-data, 
 under the /data directory there are two folders, one-nation and comparative-contries - depending on the scraping tool used, all folders may not necessarily be used- their structure is thus:
 ```
 project-root/
-├── src/
-│   ├── components/
-│   │   ├── Header/
+├── data/
+│   ├── one-nation/
+│   │   ├── 00_raw/
+│   │   ├── 01_ingest/
+│   │   ├── 02_filter/
+│   │   ├── 03_deduplicate/
 │   │   │   ├── Header.jsx
 │   │   │   └── Header.css
-│   │   └── Footer/
+│   │   └── 04_format/
 │   │       ├── Footer.jsx
 │   │       └── Footer.css
-│   ├── utils/
-│   │   ├── helpers.js
-│   │   └── constants.js
-│   └── pages/
-│       ├── Home/
-│       │   └── index.js
-│       └── About/
-│           └── index.js
+│   ├── comparative-countries/
+│   │   ├── 00_raw/
+│   │   ├── 01_ingest/
+│   │   ├── 02_filter/
+│   │   ├── 03_deduplicate/
+│   │   │   ├── Header.jsx
+│   │   │   └── Header.css
+│   │   ├── 04_format/
+│   │   ├── 05_imageocr/
+│   │   │   ├── 05.1_extract
+│   │   │   └── 05.2_translate
+│   │   └── 06_whisper/
+│   │       ├── 06.1_translate
+│   │       └── 06.1_transcribe
 ├── public/
 │   ├── images/
 │   │   └── logo.png
