@@ -65,8 +65,9 @@ data-pipeline/
       - [x] Create spreadsheet with relevant parties
       - [x] Identify timeframe of analysis
     - **Data Collection:**
-      - [x] Run IG Grab for leaders + parties
-      - [ x] write + run 
+      - [x] Run IG Grab for:
+        - [x] Leaders
+        - [x] Parties
     - **Data Processing**
       - [x] Ingest and unzip bulk downloads
       - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
