@@ -40,7 +40,7 @@ data-pipeline/
     └── prod/
         └── settings.json
 ```
-- **Elle's infinite to-do list:**
+### Elle's infinite to-do list
   - **One Nation**
     - **Preliminary**
       - [x] Identify platforms
@@ -71,6 +71,7 @@ data-pipeline/
     - **Data Processing**
       - [x] Ingest and unzip bulk downloads
       - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
+      - [ ] OCR 
     
 ### Data Structure Explanation
 
@@ -84,14 +85,10 @@ data-pipeline/
 
 **04_formatted**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}
 
-**05_imageocr**:
-  **05.1_extract**: OCR extract text in foreign languages, save to ?json
-  **05.2_translate**: translate json to english (PaddleOCR via API)
-  (note this step may be done in single script, i.e. extract foreign text, but only save eng to disk)
+**05_extraction**:
+  **05.1_ocr_and_translate**: OCR extract text in foreign languages, save to ?json, translate json to english (PaddleOCR via API) \n
+  **05.2_translate_and_transcribe**: whisper-AI in-memory translation, save to srt + txt... (txt may be hard to read?)
 
-**06_whisper**:
-  **06.1_translate**: whisper in-memory
-  **06.2_transcribe**: save to srt + txt... (txt may be hard to read?)
 
 HOW TO USE:
 good quesiton
