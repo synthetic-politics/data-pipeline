@@ -1,4 +1,4 @@
-Country1,Party,Party URL,Leader,Leader URL,Election Date End2,Scrape Date3,Election Post-2024?4,Notes + Exclusion
+Country¹,Party,Party URL,Leader,Leader URL,Election Date End²,Scrape Date³,Election Post-2024?⁴,Notes + Exclusion
 Australia,One Nation,https://www.instagram.com/onenationoz/,Pauline Hanson,https://www.instagram.com/senatorpaulinehanson,03 May 2025,03 January 2025,TRUE,
 Canada,People's Party of Canada,https://www.instagram.com/peoplespca,Maxime Bernier,https://www.instagram.com/hon.maximebernier,28 April 2025,29 December 2024,TRUE,
 United Kingdom,Reform UK,https://www.instagram.com/thereformpartyuk,Nigel Farage,https://www.instagram.com/nigel_farage,04 July 2024,06 March 2024,TRUE,
@@ -15,9 +15,9 @@ EU Election,Patriots for Europe,https://www.instagram.com/patriotsep/,Jordan Bar
 EXCLUSIONS,,,,,,,,
 New Zealand,New Zealand Loyal,N/A,Elizabeth Cooney (Liz Gunn),N/A,14 October 2023,16 June 2023,FALSE," NZ First, Visions NZ and Freedom NZ are right-wing populist rather than far-right - NZ Loyal severe org issues, alt media platforms, deregistered + excluded due to time frame"
 United States of America,GOP,https://www.instagram.com/republicans/,Donald Trump,https://www.instagram.com/realdonaldtrump,05 November 2024,08 July 2024,TRUE,Excluded due to magnitude of advertising/infeasible analysis compared to others
-Denmark,Danish People's Party,https://www.instagram.com/dansk_folkeparti_1995,Morten Messerschmidt,https://www.instagram.com/mrmesserschmidt,01 November 2022,04 July 2022,FALSE,(Denmark Democrats�?) Excluded due to time frame
+Denmark,Danish People's Party,https://www.instagram.com/dansk_folkeparti_1995,Morten Messerschmidt,https://www.instagram.com/mrmesserschmidt,01 November 2022,04 July 2022,FALSE,(Denmark Democrats…?) Excluded due to time frame
 Italy,Brothers of Italy,https://www.instagram.com/fratelliditalia,Giorgia Meloni,https://www.instagram.com/giorgiameloni/,25 September 2022,28 May 2022,FALSE,Excluded due to time frame
-Sweden,Sweden Democrats,https://www.instagram.com/sverigedemokraterna,Jimmie �kesson,https://www.instagram.com/akesson.jimmie,11 September 2022,14 May 2022,FALSE,Excluded due to time frame
+Sweden,Sweden Democrats,https://www.instagram.com/sverigedemokraterna,Jimmie Åkesson,https://www.instagram.com/akesson.jimmie,11 September 2022,14 May 2022,FALSE,Excluded due to time frame
 Spain,Vox,https://www.instagram.com/vox_es,Santiago Abascal,https://www.instagram.com/santi_abascal,23 July 2023,25 March 2023,FALSE,Excluded due to time frame
 ,,,,,,,,
 "1. Ordered by 5, 9, 14 Eyes, the EU, Exclusions
