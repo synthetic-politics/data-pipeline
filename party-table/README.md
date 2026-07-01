@@ -1,3 +1,5 @@
+For an excel spreadsheet, download the party-table.xslx above
+
 | Country[^order] | Party | Party Instagram | Leader | Leader Instagram | Election Date End[^multi] | Scrape Date[^scrape] |
 |---|---|---|---|---|---|---|
 | Australia | One Nation | [@onenationoz](https://www.instagram.com/onenationoz/) | Pauline Hanson | [@senatorpaulinehanson](https://www.instagram.com/senatorpaulinehanson) | 03 May 2025 | 03 Jan 2025 |
