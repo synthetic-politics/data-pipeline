@@ -41,6 +41,12 @@ under the /data directory there are two folders, one-nation and comparative-cont
     - [ ] Run WhisperAI on non-English videos
     
 ## Data Schema
+
+```text
+**00_raw**      : Raw data from the source
+KeyNameLoooooong    : Value
+AnotherKey          : Value
+```
 **00_raw**:                Raw data from the source <br />
 **01_ingested**:           Unzipped and ready for processing  <br />
 **02_filtered**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)  <br />
