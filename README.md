@@ -69,7 +69,7 @@ data-pipeline/
     - [ ] Run PaddleOCR on non-English images
     - [ ] Run WhisperAI on non-English videos
     
-### Data Structure Explanation
+### Data Structure Naming Scheme
 
 **00_raw**: Raw data from the source
 
@@ -82,7 +82,9 @@ data-pipeline/
 **04_formatted**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}
 
 **05_extraction**:
+  
   **05.1_ocr_and_translate**: OCR extract text in foreign languages, save to ?json, translate json to english (PaddleOCR via API) \n
+  
   **05.2_translate_and_transcribe**: whisper-AI in-memory translation, save to srt + txt... (txt may be hard to read?)
 
 
