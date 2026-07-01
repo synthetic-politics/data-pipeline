@@ -10,12 +10,12 @@ data-pipeline/
 ├── data/
 │   ├── one-nation/
 │   │   ├── 00_raw/
-│   │   ├── 01_ingest/
 │   │   ├── 02_filter/
 │   │   ├── 03_deduplicate/
 │   │   └── 04_format/
 │   ├── comparative-countries/
 │   │   ├── 00_raw/
+│   │   ├── 01_ingest/
 │   │   ├── 02_filter/
 │   │   ├── 04_format/
 │   │   ├── 05_imageocr/
@@ -40,6 +40,10 @@ data-pipeline/
 ```
 - **Elle's infinite to-do list:**
   - **One Nation**
+    - **Preliminary**
+      - [x] Identify platforms
+      - [x] Identify scraping tools
+      - [x] Check scraping tools are all functional
     - **Data Collection:**
       - [x] Instagram
       - [x] Twitter
@@ -48,15 +52,24 @@ data-pipeline/
       - [ ] YouTube
       - [ ] Party Website (Wayback)
       - [ ] Physical Advertisements (Trove)
+    - **Data Processing:**
+      - [ ] Filter posts outside of date range
+      - [ ] Deduplicate data
+      - [ ] Format file structure
+  
   - **Comparative Countries**
-  - 
-  - **Data Collection:**
-    - [x] data-pipeline/party_table.xlsx
-    - [ ] Run insta-grab for leaders + parties
-    - [ ] write + run data-pipeline/scripts/reorganise-comparative-countries.py
-  - **Data analysis**
-  - 
-### Data Structure
+    - **Preliminary**
+      - [x] Identify scraping tool for Instagram
+      - [x] Create spreadsheet with relevant parties
+      - [x] Identify timeframe of analysis
+    - **Data Collection:**
+      - [x] Run IG Grab for leaders + parties
+      - [ x] write + run 
+    - **Data Processing**
+      - [x] Ingest and unzip bulk downloads
+      - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
+    
+### Data Structure Explanation
 
 **00_raw**: Raw data from the source
 
