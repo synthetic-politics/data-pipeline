@@ -43,14 +43,19 @@ under the /data directory there are two folders, one-nation and comparative-cont
 ## Data Schema
 
 ```text
-00_raw : Raw data from the source
-01_ingested: Raw data from the source <br />
-AnotherKey          : Value
+00_raw           :      Raw data from the source
+01_ingest        :      Unzipped and ready for processing 
+02_filter        :      Filter by time range, remove extraneous files
+03_deduplicate   :      Multiple copies of the same videos/images removed (PHON FOLDER ONLY!!)
+04_format        :      Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}
+05_extract       :
+  05.1_image     :      OCR extract text in foreign languages, save to ?json, translate json to english (PaddleOCR via API)   
+  05.2_video     :      Whisper-AI in-memory translation, save to srt + txt/json
 ```
 **00_raw**:                Raw data from the source <br />
 ****:           Raw data from the source <br />  <br />
-**02_filtered**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)  <br />
-**03_deduplicated**: Multiple copies of the same videos/images removed - DO NOT DEDUPLICATE! MULTIPLE COPIES OF AI IMAGES OUGHT TO BE NOTED IN RESULTS!  <br />
+****: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)  <br />
+****: Multiple copies of the same videos/images removed - DO NOT DEDUPLICATE! MULTIPLE COPIES OF AI IMAGES OUGHT TO BE NOTED IN RESULTS!  <br />
 **04_formatted**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}  <br />
 **05_extraction**:  <br />
   **05.1_ocr_and_translate**: OCR extract text in foreign languages, save to ?json, translate json to english (PaddleOCR via API)  <br />
