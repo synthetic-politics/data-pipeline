@@ -8,7 +8,7 @@ under the /data directory there are two folders, one-nation and comparative-cont
 
 Elle's infinite to-do list
 Data Collection
-- [x] data-pipeline/party_table.xlsx
+- ☑️ data-pipeline/party_table.xlsx
 - [ ] Run insta-grab for leaders + parties
 - [ ] write + run data-pipeline/scripts/reorganise-comparative-countries.py
 - [ ] 
