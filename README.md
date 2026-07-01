@@ -13,18 +13,12 @@ project-root/
 │   │   ├── 01_ingest/
 │   │   ├── 02_filter/
 │   │   ├── 03_deduplicate/
-│   │   │   ├── Header.jsx
-│   │   │   └── Header.css
 │   │   └── 04_format/
-│   │       ├── Footer.jsx
-│   │       └── Footer.css
 │   ├── comparative-countries/
 │   │   ├── 00_raw/
 │   │   ├── 01_ingest/
 │   │   ├── 02_filter/
 │   │   ├── 03_deduplicate/
-│   │   │   ├── Header.jsx
-│   │   │   └── Header.css
 │   │   ├── 04_format/
 │   │   ├── 05_imageocr/
 │   │   │   ├── 05.1_extract
