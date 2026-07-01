@@ -8,36 +8,7 @@ Note that in the repository on GitHub online, some of the data files (raw-data, 
 It was 80 GB of zipped data dawg
 
 under the /data directory there are two folders, one-nation and comparative-contries - depending on the scraping tool used, all folders may not necessarily be used- their structure is thus:
-```
-data-pipeline/
-├── data/
-│   ├── one-nation/
-│   │   ├── 00_raw/
-│   │   ├── 02_filter/
-│   │   ├── 03_deduplicate/
-│   │   └── 04_format/
-│   ├── comparative-countries/
-│   │   ├── 00_raw/
-│   │   ├── 01_ingest/
-│   │   ├── 02_filter/
-│   │   ├── 04_format/
-│   │   ├── 05_extract/
-│   │   │   ├── 05.1_ocr_and_translate
-│   │   │   └── 05.2_translate_and_transcribe
-├── public/
-│   ├── images/
-│   │   └── logo.png
-│   └── fonts/
-│       └── main.woff
-├── tests/
-│   └── unit/
-│       └── example.test.js
-└── config/
-    ├── dev/
-    │   └── settings.json
-    └── prod/
-        └── settings.json
-```
+
 ## Elle's infinite to-do list
 ### One Nation
   - **Preliminary**
@@ -70,15 +41,47 @@ data-pipeline/
     - [ ] Run WhisperAI on non-English videos
     
 ## Data Schema
+**00_raw**: Raw data from the source <br />
+**01_ingested**: Unzipped and ready for processing
 
- - **00_raw**: Raw data from the source
- - **01_ingested**: Unzipped and ready for processing
+
  - **02_filtered**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)
  - **03_deduplicated**: Multiple copies of the same videos/images removed - DO NOT DEDUPLICATE! MULTIPLE COPIES OF AI IMAGES OUGHT TO BE NOTED IN RESULTS!
  - **04_formatted**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}
  - **05_extraction**:
    - **05.1_ocr_and_translate**: OCR extract text in foreign languages, save to ?json, translate json to english (PaddleOCR via API) \n
    - **05.2_translate_and_transcribe**: whisper-AI in-memory translation, save to srt + txt... (txt may be hard to read?)
+
+```
+data-pipeline/
+├── data/
+│   ├── one-nation/
+│   │   ├── 00_raw/
+│   │   ├── 02_filter/
+│   │   ├── 03_deduplicate/
+│   │   └── 04_format/
+│   ├── comparative-countries/
+│   │   ├── 00_raw/
+│   │   ├── 01_ingest/
+│   │   ├── 02_filter/
+│   │   ├── 04_format/
+│   │   ├── 05_extract/
+│   │   │   ├── 05.1_ocr_and_translate
+│   │   │   └── 05.2_translate_and_transcribe
+├── public/
+│   ├── images/
+│   │   └── logo.png
+│   └── fonts/
+│       └── main.woff
+├── tests/
+│   └── unit/
+│       └── example.test.js
+└── config/
+    ├── dev/
+    │   └── settings.json
+    └── prod/
+        └── settings.json
+```
 
 ### Other Thoughts
 - for analysis step, coding i am still ehhhh - i think as many tags as possible would be good - i.e. deepfakes, pure-ai, repeated occurence of particular AI image/repost, etc.
