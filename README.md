@@ -7,6 +7,17 @@ Note that in the repository on GitHub online, some of the data files (raw-data, 
 under the /data directory there are two folders, one-nation and comparative-contries - depending on the scraping tool used, all folders may not necessarily be used- their structure is thus:
 
 - **Elle's infinite to-do list:**
+  - **One Nation**
+    - **Data Collection:**
+      - [x] Instagram
+      - [x] Twitter
+      - [ ] FaceBook
+      - [ ] TikTok
+      - [ ] YouTube
+      - [ ] Party Website (Wayback)
+      - [ ] Physical Advertisements (Trove)
+  - **Comparative Countries**
+  - 
   - **Data Collection:**
     - [x] data-pipeline/party_table.xlsx
     - [ ] Run insta-grab for leaders + parties
