@@ -1,19 +1,11 @@
 # data-pipeline
-HOW TO USE:
-good quesiton
-
-Some hints on reading and navigating the repository:
-Note that in the repository on GitHub online, some of the data files (raw-data, source-data, deduplicated) are empty - this is because they are very large unprocessed zip files and thus have been included in the .gitignore. 
-
-It was 80 GB of zipped data dawg
-
-under the /data directory there are two folders, one-nation and comparative-contries - depending on the scraping tool used, all folders may not necessarily be used- their structure is thus:
+Note that many data files flagged as collected (e.g. raw, ingest) are not present - they have been deliberately excluded due to file size. Additionally, videos are not present within this repository for the same reason. I may make these accessible via a OneDrive at a later date.
 
 ## Elle's infinite to-do list
 ### One Nation
   - **Preliminary**
     - [x] Identify scraping tools + check functionality
-  - **Data Collection:**
+  - **Raw Data Collection:**
     - [x] Instagram
     - [x] Twitter
     - [ ] FaceBook
@@ -30,7 +22,7 @@ under the /data directory there are two folders, one-nation and comparative-cont
   - **Preliminary**
     - [x] Identify scraping tool for Instagram + check functionality
     - [x] Create spreadsheet with relevant parties
-  - **Data Collection:**
+  - **Raw Data Collection:**
     - [x] Run IG Grab for:
       - [x] Leaders
       - [x] Parties
