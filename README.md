@@ -80,7 +80,7 @@ Data Processing
 
 **02_filter**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)
 
-**03_deduplicate**: Multiple copies of the same videos/images removed
+**03_deduplicate**: Multiple copies of the same videos/images removed - DO NOT DEDUPLICATE! MULTIPLE COPIES OF AI IMAGES OUGHT TO BE NOTED IN RESULTS!
 
 **04_format**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}
 
