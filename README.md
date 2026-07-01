@@ -16,9 +16,7 @@ data-pipeline/
 │   │   └── 04_format/
 │   ├── comparative-countries/
 │   │   ├── 00_raw/
-│   │   ├── 01_ingest/
 │   │   ├── 02_filter/
-│   │   ├── 03_deduplicate/
 │   │   ├── 04_format/
 │   │   ├── 05_imageocr/
 │   │   │   ├── 05.1_extract
