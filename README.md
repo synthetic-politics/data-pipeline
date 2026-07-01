@@ -7,8 +7,8 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
     - [x] Identify scraping tools + check functionality
   - **Raw Data Collection:**
     - [x] Instagram
-    - [x] Twitter
-    - [ ] FaceBook
+    - [x] Twitter/X
+    - [ ] Facebook
     - [ ] TikTok
     - [ ] YouTube
     - [ ] Party Website (Wayback)
