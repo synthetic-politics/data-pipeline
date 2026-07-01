@@ -1,8 +1,9 @@
 # data-pipeline
-Welcome to ~~DaPipeline~~ data-pipeline
+HOW TO USE:
+good quesiton
 
 Some hints on reading and navigating the repository:
-Note that in the repository on GitHub online, some of the data files (raw-data, source-data, deduplicated) are empty - this is because they are very large unprocessed zip files and thus have been included in the .gitignore. Also Due to the magnitude of some of the videos, there are folders that will remain empty 
+Note that in the repository on GitHub online, some of the data files (raw-data, source-data, deduplicated) are empty - this is because they are very large unprocessed zip files and thus have been included in the .gitignore. 
 
 It was 80 GB of zipped data dawg
 
@@ -20,12 +21,9 @@ data-pipeline/
 │   │   ├── 01_ingest/
 │   │   ├── 02_filter/
 │   │   ├── 04_format/
-│   │   ├── 05_imageocr/
-│   │   │   ├── 05.1_extract
-│   │   │   └── 05.2_translate
-│   │   └── 06_whisper/
-│   │       ├── 06.1_translate
-│   │       └── 06.1_transcribe
+│   │   ├── 05_extract/
+│   │   │   ├── 05.1_ocr_and_translate
+│   │   │   └── 05.2_translate_and_transcribe
 ├── public/
 │   ├── images/
 │   │   └── logo.png
@@ -77,7 +75,7 @@ data-pipeline/
 
 **00_raw**: Raw data from the source
 
-**01_ingested**: Unzipped and ingested
+**01_ingested**: Unzipped and ready for processing
 
 **02_filtered**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)
 
@@ -90,16 +88,6 @@ data-pipeline/
   **05.2_translate_and_transcribe**: whisper-AI in-memory translation, save to srt + txt... (txt may be hard to read?)
 
 
-HOW TO USE:
-good quesiton
 
-coding i am still ehhhh - i think as many tags as possible would be good - i.e. deepfakes, pure-ai, etc.
-
-Note: Videos are too large to be stored within the repo, hence this is images only
-
-## FAQ
-Help
-
-![Architecture](docs/data-pipeline.svg)
-
-Source: [architecture.drawio](docs/data-pipeline.drawio)
+### Other Thoughts
+coding i am still ehhhh - i think as many tags as possible would be good - i.e. deepfakes, pure-ai, repeated occurence of particular AI image/repost, etc.
