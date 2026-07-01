@@ -5,7 +5,38 @@ Some hints on reading and navigating the repository:
 Note that in the repository on GitHub online, some of the data files (raw-data, source-data, deduplicated) are empty - this is because they are very large unprocessed zip files and thus have been included in the .gitignore.
 
 under the /data directory there are two folders, one-nation and comparative-contries - depending on the scraping tool used, all folders may not necessarily be used- their structure is thus:
-
+```
+project-root/
+├── src/
+│   ├── components/
+│   │   ├── Header/
+│   │   │   ├── Header.jsx
+│   │   │   └── Header.css
+│   │   └── Footer/
+│   │       ├── Footer.jsx
+│   │       └── Footer.css
+│   ├── utils/
+│   │   ├── helpers.js
+│   │   └── constants.js
+│   └── pages/
+│       ├── Home/
+│       │   └── index.js
+│       └── About/
+│           └── index.js
+├── public/
+│   ├── images/
+│   │   └── logo.png
+│   └── fonts/
+│       └── main.woff
+├── tests/
+│   └── unit/
+│       └── example.test.js
+└── config/
+    ├── dev/
+    │   └── settings.json
+    └── prod/
+        └── settings.json
+```
 - **Elle's infinite to-do list:**
   - **One Nation**
     - **Data Collection:**
