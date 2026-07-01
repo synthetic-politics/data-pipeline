@@ -7,11 +7,11 @@ Note that in the repository on GitHub online, some of the data files (raw-data, 
 under the /data directory there are two folders, one-nation and comparative-contries - depending on the scraping tool used, all folders may not necessarily be used- their structure is thus:
 
 Elle's infinite to-do list:
-Data Collection:
-  ☑️ data-pipeline/party_table.xlsx
-  - [ ] Run insta-grab for leaders + parties
-  - [ ] write + run data-pipeline/scripts/reorganise-comparative-countries.py
-  - [ ] 
+  Data Collection:
+    ☑️ data-pipeline/party_table.xlsx
+    ☐ Run insta-grab for leaders + parties
+    ☐ write + run data-pipeline/scripts/reorganise-comparative-countries.py
+
 Data analysis 
 
 Data Processing
