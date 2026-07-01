@@ -5,6 +5,6 @@ good quesiton
 
 Note: Videos are too large to be stored within the repo, hence this is images only
 
-![Architecture](docs/architecture.svg)
+![Architecture](docs/data-pipeline.svg)
 
-Source: [architecture.drawio](docs/architecture.drawio)
+Source: [architecture.drawio](docs/data-pipeline.drawio)
