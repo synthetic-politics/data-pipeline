@@ -1,5 +1,5 @@
 # data-pipeline
-Note that many data files flagged as collected (e.g. raw, ingest) are not present - they have been deliberately excluded due to file size. Additionally, videos are not present within this repository for the same reason. I may make these accessible via a OneDrive at a later date.
+Note that many data files flagged as collected (e.g. raw, ingest) are not present - they have been deliberately excluded due to file size. Additionally, videos are not present within this repository for the same reason. I may make these accessible via a OneDrive link or similar at a later date.
 
 ## Elle's infinite to-do list
 ### One Nation
