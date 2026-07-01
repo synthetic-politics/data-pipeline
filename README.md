@@ -6,6 +6,16 @@ Note that in the repository on GitHub online, some of the data files (raw-data, 
 
 under the /data directory there are two folders, one-nation and comparative-contries - depending on the scraping tool used, all folders may not necessarily be used- their structure is thus:
 
+Elle's infinite to-do list
+Data Collection
+- [ ] data-pipeline/party_table.xlsx
+- [ ] Run insta-grab for leaders + parties
+- [ ] write + run data-pipeline/scripts/reorganise-comparative-countries.py
+- [ ] 
+Data analysis 
+
+Data Processing
+
 #### One Nation
 **00_raw**: Raw data from the source
 
@@ -39,6 +49,8 @@ under the /data directory there are two folders, one-nation and comparative-cont
 
 HOW TO USE:
 good quesiton
+
+coding i am still ehhhh - i think as many tags as possible would be good - i.e. deepfakes, pure-ai, etc.
 
 Note: Videos are too large to be stored within the repo, hence this is images only
 
