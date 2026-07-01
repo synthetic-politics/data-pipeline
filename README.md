@@ -42,12 +42,12 @@ under the /data directory there are two folders, one-nation and comparative-cont
     
 ## Data Schema
 **00_raw**:                Raw data from the source <br />
-**01_ingested**:           Unzipped and ready for processing < br / >
-**02_filtered**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range) < br / >
-**03_deduplicated**: Multiple copies of the same videos/images removed - DO NOT DEDUPLICATE! MULTIPLE COPIES OF AI IMAGES OUGHT TO BE NOTED IN RESULTS! < br / >
-**04_formatted**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number} < br / >
-**05_extraction**: < br / >
-  **05.1_ocr_and_translate**: OCR extract text in foreign languages, save to ?json, translate json to english (PaddleOCR via API) < br / >
+**01_ingested**:           Unzipped and ready for processing  <br />
+**02_filtered**: remove extraneous json & txt files (these may actually be useful for img context, reconsider) (For bulk downloads, also filter those not within date range)  <br />
+**03_deduplicated**: Multiple copies of the same videos/images removed - DO NOT DEDUPLICATE! MULTIPLE COPIES OF AI IMAGES OUGHT TO BE NOTED IN RESULTS!  <br />
+**04_formatted**: Rename and restructure files according to {YYYY-MM-DD}_{author}_{post_number}  <br />
+**05_extraction**:  <br />
+  **05.1_ocr_and_translate**: OCR extract text in foreign languages, save to ?json, translate json to english (PaddleOCR via API)  <br />
   **05.2_translate_and_transcribe**: whisper-AI in-memory translation, save to srt + txt... (txt may be hard to read?)
 
 ```
