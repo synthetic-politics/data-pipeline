@@ -34,8 +34,8 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 ### Data Analysis
 - [ ] TruthScan computer analysis for AI
 - [ ] Human analysis for AI
-### Completition
- - [ ] Verified non-use of AI
+### Completed
+ - [ ] Verified total non-use of AI imagery
   
 ## Comparative Countries
 ### Preliminary
@@ -65,14 +65,28 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 ### Data Processing
 - [x] Ingest and unzip bulk downloads
 - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
-- [ ] Run PaddleOCR on non-English images
-- [ ] Run WhisperAI on non-English videos
+- [ ] Run PaddleOCR on non-English images (Optical Character Recognition)
+  - [ ] Transcribe foreign characters -> Foreign text
+  - [ ] Translate foreign text -> English
+- [ ] Run WhisperAI on non-English videos (Automatic Speech Recognition)
+  - [ ] Transcribe foreign audio -> Foreign text
+  - [ ] Translate foreign text -> English text
 ### Data Analysis
+- [ ] Preliminary Quantiative Analysis.
+- [ ] 
 - [ ] Code for recurring themes
 - [ ] Better define structure of analysis, presently:
   - [ ] Bivariate analysis via chi-square
   - [ ] Logistic regression analysis / multivariate analysis
 
+
+### Completed
+ - [ ] All data synthesised for final analysis
+
+
+Further Literature review
+
+Final Qualitative
     
 # Data Schema
 ```text
