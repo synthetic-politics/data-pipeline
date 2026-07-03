@@ -1,7 +1,7 @@
-# Elle's infinite to-do list aka the data-pipeline
+# data-pipeline
 Note that many data files flagged as collected (e.g. raw, ingest) are not present - they have been deliberately excluded due to file size. Additionally, videos are not present within this repository for the same reason. I may make these accessible via a OneDrive link or similar at a later date.
 
-# 
+# Elle's infinite to-do list 
 ## One Nation
 ### Preparation 
 - [ ] Identify scrapers & verify functionality
@@ -89,7 +89,7 @@ Here's the table restructured vertically:
  - [ ] One Nation organisational
  - [ ] One Nation capacity-based
 
-### Final Qualitative Analysis
+## Final Qualitative Analysis
 - [ ] Evaluate if passive or active
 - [ ] Evaluate pillars:
   - [ ] Ideological (Discuss methodological findings, PHON vs rest)
