@@ -1,6 +1,3 @@
-# data-pipeline
-Note that many data files flagged as collected (e.g. raw, ingest) are not present - they have been deliberately excluded due to file size. Additionally, videos are not present within this repository for the same reason. I may make these accessible via a OneDrive link or similar at a later date.
-
 # Task Checklist
 aka Elle's infinite to-do list 
 ## One Nation
@@ -141,5 +138,6 @@ data-pipeline/
         └── settings.json
 ```
 
-### Other Thoughts
+### Notes
 - when coding (analysis), as many relevant tags as possible would be good - i.e. deepfakes, pure-ai, repeated occurence of particular AI image/repost, etc.
+- Many data files flagged as collected (e.g. raw, ingest) are not present - they have been deliberately excluded due to file size. Additionally, videos are not present within this repository for the same reason. I may make these accessible via a OneDrive link or similar at a later date.
