@@ -36,18 +36,17 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [x] Identify scraping tool for Instagram + check functionality
 - [x] Create spreadsheet with relevant parties
 ### Raw Data Collection
-
 | Country / Region | Party | Leader |
-|------------------|:-----:|:------:|
-| Australia | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
-| Canada | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
-| United Kingdom | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
-| France | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
-| Netherlands | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
-| Norway | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
-| Belgium | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
-| Germany | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
-| European Union | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+|:---|:---:|:---:|
+| Australia | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| Canada | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| United Kingdom | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| France | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| Netherlands | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| Norway | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| Belgium | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| Germany | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| European Union | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 
 ### Data Processing
 - [x] Ingest and unzip bulk downloads
