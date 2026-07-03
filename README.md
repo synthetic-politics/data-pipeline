@@ -1,5 +1,20 @@
-# Task Checklist
-aka Elle's infinite to-do list - For a table of relevant parties, leaders, election dates, etc., see [here](/party-table)
+# One Nation vs. The World
+**Some helpful links for navigating the repository**
+
+
+
+To view current One Nation data, see [here](/data/one-nation/02_filter)
+
+To view comparative country data, see [here](/data/comparative-countries/02_filter
+
+For a table of relevant parties, leaders, election dates, etc., see [here](/party-table)
+
+To view scripts/code see [here](/scripts)
+
+
+
+
+# Elle's infinite to-do list
 ## One Nation
 ### Preparation 
 - [ ] Identify scrapers & verify functionality
