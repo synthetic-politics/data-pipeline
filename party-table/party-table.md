@@ -28,5 +28,5 @@ For an excel spreadsheet, download the party-table.xslx above
 [^france]: Elections on 30 Jun & 7 July (127 days)
 [^eu]: Election from Jun 6 to Jun 9 (123 days)
 [^excl]: Elections pre-2024 excluded
-[^nz]: First, Visions NZ and Freedom NZ are right-wing populist rather than far-right - NZ Loyal severe org issues, alt media platforms, deregistered
+[^nz]: NZ First, Visions NZ and Freedom NZ are right-wing populist rather than far-right - NZ Loyal severe org issues, alt media platforms, deregistered
 [^usa]: Excluded due to magnitude of advertising/infeasible analysis compared to others
