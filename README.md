@@ -17,7 +17,7 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 | Account | Instagram | Twitter/X | Facebook | TikTok | YouTube |
 |---------|:---------:|:---------:|:--------:|:-------:|:-------:|
 | One Nation | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
-| Pauline Hanson | <ul><li>- [x] </li></ul> | - [ ] | - [ ] | - [ ] | - [ ] |
+| Pauline Hanson | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
 
 - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
 - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
