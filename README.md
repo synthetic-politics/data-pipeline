@@ -13,60 +13,65 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [x] Verify Wayback Machine functionality
 - [ ] Verify Trove functionality
 ### Raw Data Collection
-  - [ ] One Nation
-    - [x] Instagram
-    - [x] Twitter/X
-    - [ ] Facebook
-    - [ ] TikTok
-    - [ ] YouTube
-  - [ ] Pauline Hanson
-    - [x] Instagram
-    - [x] Twitter/X
-    - [ ] Facebook
-    - [ ] TikTok
-    - [ ] YouTube
-  - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
-  - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
+- [ ] One Nation
+  - [x] Instagram
+  - [x] Twitter/X
+  - [ ] Facebook
+  - [ ] TikTok
+  - [ ] YouTube
+- [ ] Pauline Hanson
+  - [x] Instagram
+  - [x] Twitter/X
+  - [ ] Facebook
+  - [ ] TikTok
+  - [ ] YouTube
+- [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
+- [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
 ### Data Processing
   - [ ] Filter posts outside of date range
   - [ ] Deduplicate images/videos with [idealo/imagededup](https://github.com/idealo/imagededup)
   - [ ] Format file structure
 ### Data Analysis
-  - [ ] TruthScan computer analysis for AI
-  - [ ] Human analysis for AI
+- [ ] TruthScan computer analysis for AI
+- [ ] Human analysis for AI
 ### Completition
  - [ ] Verified non-use of AI
   
 ## Comparative Countries
 ### Preliminary
-  - [x] Identify scraping tool for Instagram + check functionality
-  - [x] Create spreadsheet with relevant parties
+- [x] Identify scraping tool for Instagram + check functionality
+- [x] Create spreadsheet with relevant parties
 ### Raw Data Collection
-  - [x] Parties 
-    - [x] One Nation
-    - [x] People's Party of Canada
-    - [x] Reform UK
-    - [x] National Rally
-    - [x] Party for Freedom
-    - [x] Progress Party
-    - [x] Vlaams Belang
-    - [x] Alternative for Germany
-    - [x] Patriots for Europe
-  - [x] Leaders
-    - [x] Pauline Hanson
-    - [x] Maxime Bernier
-    - [x] Nigel Farage
-    - [x] Jordan Bardella (EU + France)
-    - [x] Geert Wilders
-    - [x] Sylvi Listhaug
-    - [x] Tom Van Grieken
-    - [x] Alice Weidel
+- [x] Parties 
+  - [x] One Nation
+  - [x] People's Party of Canada
+  - [x] Reform UK
+  - [x] National Rally
+  - [x] Party for Freedom
+  - [x] Progress Party
+  - [x] Vlaams Belang
+  - [x] Alternative for Germany
+  - [x] Patriots for Europe
+- [x] Leaders
+  - [x] Pauline Hanson
+  - [x] Maxime Bernier
+  - [x] Nigel Farage
+  - [x] Jordan Bardella (France)
+  - [x] Geert Wilders
+  - [x] Sylvi Listhaug
+  - [x] Tom Van Grieken
+  - [x] Alice Weidel
+  - [x] Jordan Bardella (EU)
 ### Data Processing
-  - [x] Ingest and unzip bulk downloads
-  - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
-  - [ ] Run PaddleOCR on non-English images
-  - [ ] Run WhisperAI on non-English videos
-
+- [x] Ingest and unzip bulk downloads
+- [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
+- [ ] Run PaddleOCR on non-English images
+- [ ] Run WhisperAI on non-English videos
+### Data Analysis
+- [ ] Code for recurring themes
+- [ ] Better define structure of analysis, presently:
+  - [ ] Bivariate analysis via chi-square
+  - [ ] Logistic regression analysis / multivariate analysis
 
     
 # Data Schema
