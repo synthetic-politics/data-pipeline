@@ -76,4 +76,4 @@ data-pipeline/
 ```
 
 ### Other Thoughts
-- for analysis step, coding i am still ehhhh - i think as many tags as possible would be good - i.e. deepfakes, pure-ai, repeated occurence of particular AI image/repost, etc.
+- when coding (analysis), as many relevant tags as possible would be good - i.e. deepfakes, pure-ai, repeated occurence of particular AI image/repost, etc.
