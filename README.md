@@ -65,7 +65,7 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [ ] Coding
   - [ ] Code for recurring themes
   - [ ] Finalise sample size
-- [ ]Primary Quantitative
+- [ ] Primary Quantitative
   - [ ] Better define structure/function of analysis
   - [ ] Bivariate analysis via chi-square
   - [ ] Logistic regression analysis / multivariate analysis
