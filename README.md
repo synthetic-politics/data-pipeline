@@ -54,10 +54,10 @@ Here's the table restructured vertically:
 ### Data Processing
 - [x] Ingest and unzip bulk downloads
 - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
-- [ ] Run PaddleOCR on non-English images (Optical Character Recognition)
+- [ ] Run PaddleOCR on non-English images (Optical Character Recognition) [PaddlePaddle/PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR)
   - [ ] Transcribe foreign characters -> Foreign text
   - [ ] Translate foreign text -> English
-- [ ] Run WhisperAI on non-English videos (Automatic Speech Recognition)
+- [ ] Run WhisperAI on non-English videos (Automatic Speech Recognition) [openai/whisper](https://github.com/openai/whisper)
   - [ ] Transcribe foreign audio -> Foreign text
   - [ ] Translate foreign text -> English text
 ### Data Analysis
