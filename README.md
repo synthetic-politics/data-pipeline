@@ -3,30 +3,39 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 
 # 
 ## One Nation
-### Preliminary (Identify scrapers & verify functionality)
+### Preliminary 
+- [ ] Identify scrapers & verify functionality
   - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
   - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
   - [ ] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
   - [ ] TikTok - ?
   - [x] YouTube - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- [x] Verify Wayback Machine functionality
+- [ ] Verify Trove functionality
 ### Raw Data Collection
-  - [x] Instagram
-  - [x] Twitter/X
-  - [ ] Facebook
-  - [ ] TikTok
-  - [ ] YouTube
+  - [ ] One Nation Social Media
+    - [x] Instagram
+    - [x] Twitter/X
+    - [ ] Facebook
+    - [ ] TikTok
+    - [ ] YouTube
+  - [ ] Pauline Hanson Social Media
+    - [x] Instagram
+    - [x] Twitter/X
+    - [ ] Facebook
+    - [ ] TikTok
+    - [ ] YouTube
   - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
   - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
-  - [ ] Cross-check all data collected
 ### Data Processing
   - [ ] Filter posts outside of date range
-  - [ ] - [ ] Run idealo/imagededup to remove duplicate images/videos
+  - [ ] Run idealo/imagededup to remove duplicate images/videos
   - [ ] Format file structure
   
 ## Comparative Countries
 ### Preliminary
-    - [x] Identify scraping tool for Instagram + check functionality
-    - [x] Create spreadsheet with relevant parties
+  - [x] Identify scraping tool for Instagram + check functionality
+  - [x] Create spreadsheet with relevant parties
 ### Raw Data Collection
   - [x] Parties 
     - [x] One Nation
