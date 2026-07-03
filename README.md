@@ -13,13 +13,13 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [x] Verify Wayback Machine functionality
 - [ ] Verify Trove functionality
 ### Raw Data Collection
-  - [ ] One Nation Social Media
+  - [ ] One Nation
     - [x] Instagram
     - [x] Twitter/X
     - [ ] Facebook
     - [ ] TikTok
     - [ ] YouTube
-  - [ ] Pauline Hanson Social Media
+  - [ ] Pauline Hanson
     - [x] Instagram
     - [x] Twitter/X
     - [ ] Facebook
@@ -29,8 +29,13 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
   - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
 ### Data Processing
   - [ ] Filter posts outside of date range
-  - [ ] Run idealo/imagededup to remove duplicate images/videos
+  - [ ] Deduplicate images/videos with [idealo/imagededup](https://github.com/idealo/imagededup)
   - [ ] Format file structure
+### Data Analysis
+  - [ ] TruthScan computer analysis for AI
+  - [ ] Human analysis for AI
+### Completition
+ - [ ] Verified non-use of AI
   
 ## Comparative Countries
 ### Preliminary
