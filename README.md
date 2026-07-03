@@ -11,11 +11,12 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
     - [ ] Facebook
     - [ ] TikTok
     - [ ] YouTube
-    - [ ] Party Website (Wayback)
-    - [ ] Physical Advertisements (Trove)
+    - [ ] Party Website ([Wayback Machine](https://web.archive.org/))
+    - [ ] Physical Advertisements ([Trove](https://trove.nla.gov.au/))
+    - [ ] Cross-check all data collected
   - **Data Processing:**
     - [ ] Filter posts outside of date range
-    - [ ] Deduplicate data
+    - [ ] - [ ] Run `idealo/imagededup` to remove duplicate images/videos
     - [ ] Format file structure
   
 ### Comparative Countries
