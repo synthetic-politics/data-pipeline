@@ -13,18 +13,12 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [x] Verify Wayback Machine functionality
 - [ ] Verify Trove functionality
 ### Raw Data Collection
-- [ ] One Nation
-  - [x] Instagram
-  - [x] Twitter/X
-  - [ ] Facebook
-  - [ ] TikTok
-  - [ ] YouTube
-- [ ] Pauline Hanson
-  - [x] Instagram
-  - [x] Twitter/X
-  - [ ] Facebook
-  - [ ] TikTok
-  - [ ] YouTube
+
+| Account | Instagram | Twitter/X | Facebook | TikTok | YouTube |
+|---------|:---------:|:---------:|:--------:|:-------:|:-------:|
+| One Nation | <ul><li>[x]</li><li> | ✓ | - [ ] | - [ ] | - [ ] |
+| Pauline Hanson | - [ ] | - [ ] | - [ ] | - [ ] | - [ ] |
+
 - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
 - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
 ### Data Processing
