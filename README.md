@@ -14,10 +14,15 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [ ] Verify Trove functionality
 ### Raw Data Collection
 
-| Account | Instagram | Twitter/X | Facebook | TikTok | YouTube |
-|---------|:---------:|:---------:|:--------:|:-------:|:-------:|
-| One Nation | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
-| Pauline Hanson | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+Here's the table restructured vertically:
+
+| Platform | One Nation | Pauline Hanson |
+|---------|:---------:|:---------:|
+| Instagram | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| Twitter/X | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| Facebook | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+| TikTok | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+| YouTube | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
 
 - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
 - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
