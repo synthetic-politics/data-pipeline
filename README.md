@@ -36,6 +36,7 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [x] Identify scraping tool for Instagram + check functionality
 - [x] Create spreadsheet with relevant parties
 ### Raw Data Collection
+
 | Country / Region | Party | Leader |
 |------------------|:-----:|:------:|
 | Australia | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
@@ -47,6 +48,7 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 | Belgium | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
 | Germany | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
 | European Union | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+
 ### Data Processing
 - [x] Ingest and unzip bulk downloads
 - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
