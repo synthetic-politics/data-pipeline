@@ -7,8 +7,8 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
       - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
       - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
       - [ ] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
-      - [ ] TikTok
-      - [ ] YouTube
+      - [ ] TikTok - ?
+      - [ ] YouTube - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
   - **Raw Data Collection:**
     - [x] Instagram
     - [x] Twitter/X
