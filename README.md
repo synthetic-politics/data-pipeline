@@ -4,7 +4,15 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 ## Elle's infinite to-do list
 ### One Nation
   - **Preliminary**
-    - [x] Identify scraping tools + check functionality
+```text
+    Identify scrapers & verify functionality
+```
+ 
+      - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
+      - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
+      - [ ] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
+      - [ ] TikTok
+      - [ ] YouTube
   - **Raw Data Collection:**
     - [x] Instagram
     - [x] Twitter/X
@@ -16,7 +24,7 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
     - [ ] Cross-check all data collected
   - **Data Processing:**
     - [ ] Filter posts outside of date range
-    - [ ] - [ ] Run `idealo/imagededup` to remove duplicate images/videos
+    - [ ] - [ ] Run idealo/imagededup to remove duplicate images/videos
     - [ ] Format file structure
   
 ### Comparative Countries
