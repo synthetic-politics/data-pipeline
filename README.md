@@ -36,26 +36,17 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [x] Identify scraping tool for Instagram + check functionality
 - [x] Create spreadsheet with relevant parties
 ### Raw Data Collection
-- [x] Parties 
-  - [x] One Nation
-  - [x] People's Party of Canada
-  - [x] Reform UK
-  - [x] National Rally
-  - [x] Party for Freedom
-  - [x] Progress Party
-  - [x] Vlaams Belang
-  - [x] Alternative for Germany
-  - [x] Patriots for Europe
-- [x] Leaders
-  - [x] Pauline Hanson
-  - [x] Maxime Bernier
-  - [x] Nigel Farage
-  - [x] Jordan Bardella (France)
-  - [x] Geert Wilders
-  - [x] Sylvi Listhaug
-  - [x] Tom Van Grieken
-  - [x] Alice Weidel
-  - [x] Jordan Bardella (EU)
+| Country / Region | Party | Leader |
+|------------------|-------|--------|
+| Australia | <ul><li>- [x] One Nation</li></ul> | <ul><li>- [x] Pauline Hanson</li></ul> |
+| Canada | <ul><li>- [x] People's Party of Canada</li></ul> | <ul><li>- [x] Maxime Bernier</li></ul> |
+| United Kingdom | <ul><li>- [x] Reform UK</li></ul> | <ul><li>- [x] Nigel Farage</li></ul> |
+| France | <ul><li>- [x] National Rally</li></ul> | <ul><li>- [x] Jordan Bardella</li></ul> |
+| Netherlands | <ul><li>- [x] Party for Freedom</li></ul> | <ul><li>- [x] Geert Wilders</li></ul> |
+| Norway | <ul><li>- [x] Progress Party</li></ul> | <ul><li>- [x] Sylvi Listhaug</li></ul> |
+| Belgium | <ul><li>- [x] Vlaams Belang</li></ul> | <ul><li>- [x] Tom Van Grieken</li></ul> |
+| Germany | <ul><li>- [x] Alternative for Germany</li></ul> | <ul><li>- [x] Alice Weidel</li></ul> |
+| European Union | <ul><li>- [x] Patriots for Europe</li></ul> | <ul><li>- [x] Jordan Bardella</li></ul> |
 ### Data Processing
 - [x] Ingest and unzip bulk downloads
 - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
