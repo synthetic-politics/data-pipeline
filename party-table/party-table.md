@@ -14,7 +14,7 @@ For an excel spreadsheet, download the party-table.xslx above
 | Germany | Alternative for Germany | [@afd.bund](https://www.instagram.com/afd.bund) | Alice Weidel | [@alice.weidel](https://www.instagram.com/alice.weidel) | 23 Feb 2025 | 26 Oct 2024 |
 | **—** | | | | | | |
 | European Union[^eu] | Patriots for Europe | [@patriotsep](https://www.instagram.com/patriotsep/) | Jordan Bardella | [@jordanbardella](https://www.instagram.com/jordanbardella) | 09 Jun 2024 | 07 Feb 2024 |
-| **Exlclusions[^excl]** | | | | | | |
+| **Exclusions[^excl]** | | | | | | |
 | New Zealand[^nz] | New Zealand Loyal | N/A | Elizabeth Cooney (Liz Gunn) | N/A | 14 Oct 2023 | 16 Jun 2023 |
 | United States of America[^usa] | GOP | [@republicans](https://www.instagram.com/republicans/) | Donald Trump | [@realdonaldtrump](https://www.instagram.com/realdonaldtrump) | 05 Nov 2024 | 08 July 2024 |
 | Denmark | Danish People's Party | [@dansk_folkeparti_1995](https://www.instagram.com/dansk_folkeparti_1995) | Morten Messerschmidt | [@mrmesserschmidt](https://www.instagram.com/mrmesserschmidt) | 01 Nov 2022 | 04 July 2022 |
