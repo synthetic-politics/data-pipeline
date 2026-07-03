@@ -3,7 +3,7 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 
 # 
 ## One Nation
-### Preliminary 
+### Preparation 
 - [ ] Identify scrapers & verify functionality
   - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
   - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
@@ -30,9 +30,9 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [ ] Human analysis for AI
 ### Completed
  - [ ] Verified total non-use of AI imagery
-  
+
 ## Comparative Countries
-### Preliminary
+### Preparation
 - [x] Identify scraping tool for Instagram + check functionality
 - [x] Create spreadsheet with relevant parties
 ### Raw Data Collection
@@ -58,21 +58,40 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
   - [ ] Transcribe foreign audio -> Foreign text
   - [ ] Translate foreign text -> English text
 ### Data Analysis
-- [ ] Preliminary Quantiative Analysis.
-- [ ] 
+#### Preliminary Quantiative
+- [ ] TruthScan computer analysis for AI
+- [ ] Human analysis for AI
+- [ ] Aggregate total/percentage AI usage across parties/countries
+#### Coding
 - [ ] Code for recurring themes
-- [ ] Better define structure of analysis, presently:
-  - [ ] Bivariate analysis via chi-square
-  - [ ] Logistic regression analysis / multivariate analysis
-
-
+- [ ] Finalise sample size
+#### Primary Quantitative
+- [ ] Better define structure/function of analysis
+- [ ] Bivariate analysis via chi-square
+- [ ] Logistic regression analysis / multivariate analysis
+- [ ] Identify themes that correlate most strongly with AI usage
 ### Completed
  - [ ] All data synthesised for final analysis
 
+## Further Literature to Review
+### Culture & Strategy:
+- [ ] Anglo-Celtic Australian Culture +
+- [ ]  **Perception** of Anglo-Celtic Australian culture shaping strategic choice
+  - [ ] Tall Poppy Syndrome
+  - [ ] Anti-intellectualism
+  - [ ] Aversion to / slow adoption of new technologies
+### Organisation & Capacity: * Expand this
+ - [ ] One Nation organisational
+ - [ ] One Nation capacity-based
 
-Further Literature review
-
-Final Qualitative
+### Final Qualitative Analysis
+- [ ] Evaluate if passive or active
+- [ ] Evaluate pillars:
+  - [ ] Ideological (Discuss methodological findings, PHON vs rest)
+  - [ ] Organisation
+  - [ ] Capacity
+  - [ ] Culture
+  - [ ] Strategy
     
 # Data Schema
 ```text
