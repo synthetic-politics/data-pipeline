@@ -1,44 +1,61 @@
-# data-pipeline
+# Elle's infinite to-do list aka the data-pipeline
 Note that many data files flagged as collected (e.g. raw, ingest) are not present - they have been deliberately excluded due to file size. Additionally, videos are not present within this repository for the same reason. I may make these accessible via a OneDrive link or similar at a later date.
 
-## Elle's infinite to-do list
-### One Nation
-  - **Preliminary** (Identify scrapers & verify functionality)
-      - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
-      - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
-      - [ ] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
-      - [ ] TikTok - ?
-      - [x] YouTube - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-  - **Raw Data Collection:**
-    - [x] Instagram
-    - [x] Twitter/X
-    - [ ] Facebook
-    - [ ] TikTok
-    - [ ] YouTube
-    - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
-    - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
-    - [ ] Cross-check all data collected
-  - **Data Processing:**
-    - [ ] Filter posts outside of date range
-    - [ ] - [ ] Run idealo/imagededup to remove duplicate images/videos
-    - [ ] Format file structure
+# 
+## One Nation
+### Preliminary (Identify scrapers & verify functionality)
+  - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
+  - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
+  - [ ] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
+  - [ ] TikTok - ?
+  - [x] YouTube - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+### Raw Data Collection
+  - [x] Instagram
+  - [x] Twitter/X
+  - [ ] Facebook
+  - [ ] TikTok
+  - [ ] YouTube
+  - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
+  - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
+  - [ ] Cross-check all data collected
+### Data Processing
+  - [ ] Filter posts outside of date range
+  - [ ] - [ ] Run idealo/imagededup to remove duplicate images/videos
+  - [ ] Format file structure
   
-### Comparative Countries
-  - **Preliminary**
+## Comparative Countries
+### Preliminary
     - [x] Identify scraping tool for Instagram + check functionality
     - [x] Create spreadsheet with relevant parties
-  - **Raw Data Collection:**
-    - [x] Run IG Grab for:
-      - [x] Leaders
-      - [x] Parties
-  - **Data Processing**
-    - [x] Ingest and unzip bulk downloads
-    - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
-    - [ ] Run PaddleOCR on non-English images
-    - [ ] Run WhisperAI on non-English videos
-    
-## Data Schema
+### Raw Data Collection
+  - [x] Parties 
+    - [x] One Nation
+    - [x] People's Party of Canada
+    - [x] Reform UK
+    - [x] National Rally
+    - [x] Party for Freedom
+    - [x] Progress Party
+    - [x] Vlaams Belang
+    - [x] Alternative for Germany
+    - [x] Patriots for Europe
+  - [x] Leaders
+    - [x] Pauline Hanson
+    - [x] Maxime Bernier
+    - [x] Nigel Farage
+    - [x] Jordan Bardella (EU + France)
+    - [x] Geert Wilders
+    - [x] Sylvi Listhaug
+    - [x] Tom Van Grieken
+    - [x] Alice Weidel
+### Data Processing
+  - [x] Ingest and unzip bulk downloads
+  - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
+  - [ ] Run PaddleOCR on non-English images
+  - [ ] Run WhisperAI on non-English videos
 
+
+    
+# Data Schema
 ```text
 00_raw           :      Raw data from the source
 01_ingest        :      Unzipped and ready for processing 
