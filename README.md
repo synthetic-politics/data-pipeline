@@ -7,7 +7,7 @@ To view comparative country data, see [here](/data/comparative-countries/02_filt
 
 For a table of relevant parties, leaders, election dates, etc., see [here](/party-table)
 
-To view scripts or code see [here](/scripts)
+To view scripts and code see [here](/scripts)
 
 # Elle's infinite to-do list
 aka the task checklist
