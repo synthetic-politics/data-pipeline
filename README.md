@@ -37,16 +37,16 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 - [x] Create spreadsheet with relevant parties
 ### Raw Data Collection
 | Country / Region | Party | Leader |
-|------------------|-------|--------|
-| Australia | <ul><li>- [x] One Nation</li></ul> | <ul><li>- [x] Pauline Hanson</li></ul> |
-| Canada | <ul><li>- [x] People's Party of Canada</li></ul> | <ul><li>- [x] Maxime Bernier</li></ul> |
-| United Kingdom | <ul><li>- [x] Reform UK</li></ul> | <ul><li>- [x] Nigel Farage</li></ul> |
-| France | <ul><li>- [x] National Rally</li></ul> | <ul><li>- [x] Jordan Bardella</li></ul> |
-| Netherlands | <ul><li>- [x] Party for Freedom</li></ul> | <ul><li>- [x] Geert Wilders</li></ul> |
-| Norway | <ul><li>- [x] Progress Party</li></ul> | <ul><li>- [x] Sylvi Listhaug</li></ul> |
-| Belgium | <ul><li>- [x] Vlaams Belang</li></ul> | <ul><li>- [x] Tom Van Grieken</li></ul> |
-| Germany | <ul><li>- [x] Alternative for Germany</li></ul> | <ul><li>- [x] Alice Weidel</li></ul> |
-| European Union | <ul><li>- [x] Patriots for Europe</li></ul> | <ul><li>- [x] Jordan Bardella</li></ul> |
+|------------------|:-----:|:------:|
+| Australia | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+| Canada | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+| United Kingdom | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+| France | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+| Netherlands | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+| Norway | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+| Belgium | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+| Germany | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
+| European Union | <ul><li>- [x]</li></ul> | <ul><li>- [x]</li></ul> |
 ### Data Processing
 - [x] Ingest and unzip bulk downloads
 - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
