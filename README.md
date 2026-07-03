@@ -11,8 +11,8 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
     - [ ] Facebook
     - [ ] TikTok
     - [ ] YouTube
-    - [ ] Party Website ([Wayback Machine](https://web.archive.org/))
-    - [ ] Physical Advertisements ([Trove](https://trove.nla.gov.au/))
+    - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
+    - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
     - [ ] Cross-check all data collected
   - **Data Processing:**
     - [ ] Filter posts outside of date range
