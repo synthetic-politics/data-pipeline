@@ -1,5 +1,5 @@
 # Task Checklist
-aka Elle's infinite to-do list 
+aka Elle's infinite to-do list - For a table of relevant parties, leaders, election dates, etc., see [here](/party-table)
 ## One Nation
 ### Preparation 
 - [ ] Identify scrapers & verify functionality
