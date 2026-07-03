@@ -58,18 +58,18 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
   - [ ] Transcribe foreign audio -> Foreign text
   - [ ] Translate foreign text -> English text
 ### Data Analysis
-#### Preliminary Quantiative
-- [ ] TruthScan computer analysis for AI
-- [ ] Human analysis for AI
-- [ ] Aggregate total/percentage AI usage across parties/countries
-#### Coding
-- [ ] Code for recurring themes
-- [ ] Finalise sample size
-#### Primary Quantitative
-- [ ] Better define structure/function of analysis
-- [ ] Bivariate analysis via chi-square
-- [ ] Logistic regression analysis / multivariate analysis
-- [ ] Identify themes that correlate most strongly with AI usage
+- [ ] Preliminary Quantiative
+  - [ ] TruthScan computer analysis for AI
+  - [ ] Human analysis for AI
+  - [ ] Aggregate total/percentage AI usage across parties/countries
+- [ ] Coding
+  - [ ] Code for recurring themes
+  - [ ] Finalise sample size
+- [ ]Primary Quantitative
+  - [ ] Better define structure/function of analysis
+  - [ ] Bivariate analysis via chi-square
+  - [ ] Logistic regression analysis / multivariate analysis
+  - [ ] Identify themes that correlate most strongly with AI usage
 ### Completed
  - [ ] All data synthesised for final analysis
 
