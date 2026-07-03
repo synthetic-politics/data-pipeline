@@ -4,10 +4,7 @@ Note that many data files flagged as collected (e.g. raw, ingest) are not presen
 ## Elle's infinite to-do list
 ### One Nation
   - **Preliminary**
-```text
     Identify scrapers & verify functionality
-```
- 
       - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
       - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
       - [ ] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
