@@ -22,9 +22,6 @@ aka the task checklist
 - [x] Verify Wayback Machine functionality
 - [ ] Verify Trove functionality
 ### Raw Data Collection
-
-Here's the table restructured vertically:
-
 | Platform | One Nation | Pauline Hanson |
 |---------|:---------:|:---------:|
 | Instagram | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
