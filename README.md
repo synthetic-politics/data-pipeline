@@ -16,7 +16,7 @@ aka the task checklist
 - [ ] Identify scrapers & verify functionality
   - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
   - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
-  - [ ] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
+  - 🟠 Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
   - [ ] TikTok - ?
   - [x] YouTube - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [x] Verify Wayback Machine functionality
@@ -26,7 +26,7 @@ aka the task checklist
 |---------|:---------:|:---------:|
 | Instagram | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 | Twitter/X | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
-| Facebook | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+| Facebook |  🟠 |  🟠 |
 | TikTok | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
 | YouTube | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
 
