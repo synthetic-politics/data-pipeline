@@ -9,8 +9,8 @@ For a table of relevant parties, leaders, election dates, etc., see [here](/part
 
 To view scripts and code see [here](/scripts)
 
-# Elle's infinite to-do list
-aka the task checklist
+# Task Checklist
+aka Elle's infinite to-do list
 ## One Nation
 ### Preparation 
 - [ ] Identify scrapers & verify functionality
