@@ -28,7 +28,7 @@ aka Elle's infinite to-do list
 | Twitter/X | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 | Facebook | <ul><li>- [x] </li></ul> |  <ul><li>- [x] </li></ul> |
 | TikTok | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
-| YouTube | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+| YouTube | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul>> |
 
 - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
 - [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
