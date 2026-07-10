@@ -26,7 +26,7 @@ aka Elle's infinite to-do list
 |---------|:---------:|:---------:|
 | Instagram | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 | Twitter/X | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
-| Facebook | <ul><li>- [x] </li></ul |  <ul><li>- [x] </li></ul |
+| Facebook | <ul><li>- [x] </li></ul> |  <ul><li>- [x] </li></ul> |
 | TikTok | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
 | YouTube | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
 
