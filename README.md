@@ -16,7 +16,7 @@ aka Elle's infinite to-do list
 - [ ] Identify scrapers & verify functionality
   - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
   - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
-  - [x] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl), [JDownloader2](https://jdownloader.org/) 
+  - [x] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl) , [JDownloader2](https://jdownloader.org/) 
   - [ ] TikTok - ?
   - [x] YouTube - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [x] Verify Wayback Machine functionality
