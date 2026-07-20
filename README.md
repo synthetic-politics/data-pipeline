@@ -12,7 +12,7 @@ To view scripts and code see [here](/scripts)
 # Task Checklist
 aka Elle's infinite to-do list
 ## One Nation
-### Preparation 
+### <ul><li>- [x] </li></ul> Preparation 
 - [x] Identify scrapers & verify functionality
   - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
   - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
