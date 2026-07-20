@@ -13,7 +13,7 @@ To view scripts and code see [here](/scripts)
 aka Elle's infinite to-do list
 ## One Nation
 ### Preparation 
-- [ ] Identify scrapers & verify functionality
+- [x] Identify scrapers & verify functionality
   - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
   - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
   - [x] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl) , [JDownloader2](https://jdownloader.org/) 
@@ -27,7 +27,7 @@ aka Elle's infinite to-do list
 | Instagram | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 | Twitter/X | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 | Facebook | <ul><li>- [x] </li></ul> |  <ul><li>- [x] </li></ul> |
-| TikTok | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+| TikTok | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 | YouTube | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 
 - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
