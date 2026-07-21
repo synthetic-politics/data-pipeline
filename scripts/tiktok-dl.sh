@@ -5,14 +5,12 @@ set -euo pipefail
 # https://www.tiktok.com/@paulinehansononenation
 # https://www.tiktok.com/@onenationoz
 
-# env
 DATE_AFTER="20250103"
 DATE_BEFORE="20250504"
 OUTPUT_DIR="./tiktok_downloads"
 
 mkdir -p "$OUTPUT_DIR"
 
-#cmd
 yt-dlp \
   --dateafter  "$DATE_AFTER" \
   --datebefore "$DATE_BEFORE" \
