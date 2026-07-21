@@ -18,7 +18,6 @@ yt-dlp \
   --datebefore "$DATE_BEFORE" \
   --output "$OUTPUT_DIR/%(upload_date)s_%(id)s_%(title).80s.%(ext)s" \
   --write-info-json \
-  --write-thumbnail \
   --write-description \
   --format "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" \
   --retries 10 \
