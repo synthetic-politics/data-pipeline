@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
-# Note even though this script is marked as all (i.e. video/image), both tiktok pages only contained videos
 # run with ./tiktok-dl.sh <ACCOUNT_URL>
 
 # https://www.tiktok.com/@paulinehansononenation
@@ -11,7 +9,6 @@ set -euo pipefail
 ACCOUNT_URL="${1:?Usage: $0 <ACCOUNT_URL>}"
 USERNAME=$(echo "$ACCOUNT_URL" | grep -oP '(?<=@)[^/?]+')
 OUTPUT_DIR="./${USERNAME}"
-
 mkdir -p "$OUTPUT_DIR"
 
 yt-dlp \
@@ -31,6 +28,5 @@ yt-dlp \
   --no-abort-on-error \
   --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
   "$ACCOUNT_URL"
-
-echo ""
-echo "Saved to: $OUTPUT_DIR"
+  
+# Note even though this script is marked as all (i.e. video/image), both tiktok pages only contained videos
