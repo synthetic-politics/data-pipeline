@@ -7,8 +7,6 @@ set -euo pipefail
 # https://www.tiktok.com/@paulinehansononenation
 # https://www.tiktok.com/@onenationoz
 
-DATE_AFTER="20250103"
-DATE_BEFORE="20250504"
 ACCOUNT_URL="${1:?Usage: $0 <ACCOUNT_URL>}"
 USERNAME=$(echo "$ACCOUNT_URL" | grep -oP '(?<=@)[^/?]+')
 OUTPUT_DIR="./${USERNAME}"
@@ -16,8 +14,8 @@ OUTPUT_DIR="./${USERNAME}"
 mkdir -p "$OUTPUT_DIR"
 
 yt-dlp \
-  --dateafter  "$DATE_AFTER" \
-  --datebefore "$DATE_BEFORE" \
+  --dateafter  "20250103" \
+  --datebefore "20250504" \
   --output "$OUTPUT_DIR/%(upload_date)s_%(id)s_%(title).80s.%(ext)s" \
   --write-info-json \
   --write-description \
