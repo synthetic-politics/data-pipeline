@@ -2,6 +2,7 @@
 
 set -euo pipefail
 
+# Note even though this script is video/image, both tiktok pages only contained videos
 # run with ./tiktok-dl.sh <ACCOUNT_URL>
 
 # https://www.tiktok.com/@paulinehansononenation
