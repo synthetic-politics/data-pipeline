@@ -1,10 +1,6 @@
 # Data Pipeline
 **Some helpful links for navigating the repository**
 
-To view current One Nation data, see [here](/data/one-nation/02_filter)
-
-To view comparative country data, see [here](/data/comparative-countries/02_filter)
-
 For a table of relevant parties, leaders, election dates, etc., see [here](/party-table)
 
 To view scripts and code see [here](/scripts)
