@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
 # run with ./tiktok-dl.sh <ACCOUNT_URL>
-
 # https://www.tiktok.com/@paulinehansononenation
 # https://www.tiktok.com/@onenationoz
 
