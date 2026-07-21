@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
-# run with ./facebook-dl.sh <ACCOUNT_URL>
-# e.g. https://www.facebook.com/OneNationParty
+# run with ./facebook-img-dl.sh <ACCOUNT_URL>
+# https://www.facebook.com/OneNationParty
+# https://www.facebook.com/PaulineHansonAu
 
 ACCOUNT_URL="${1:?Usage: $0 <ACCOUNT_URL>}"
 USERNAME=$(echo "$ACCOUNT_URL" | grep -oP '(?<=facebook\.com/)[^/?]+')
