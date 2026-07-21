@@ -6,7 +6,7 @@ set -euo pipefail
 
 ACCOUNT_URL="${1:?Usage: $0 <ACCOUNT_URL>}"
 USERNAME=$(echo "$ACCOUNT_URL" | grep -oP '(?<=@)[^/?]+')
-OUTPUT_DIR="../../data/one-nation/tiktok/${USERNAME}"
+OUTPUT_DIR="../../data/one-nation/raw/tiktok/${USERNAME}"
 mkdir -p "$OUTPUT_DIR"
 
 yt-dlp \
