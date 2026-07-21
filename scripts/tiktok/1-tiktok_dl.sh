@@ -9,7 +9,9 @@ set -euo pipefail
 
 DATE_AFTER="20250103"
 DATE_BEFORE="20250504"
-OUTPUT_DIR="./tiktok_downloads"
+ACCOUNT_URL="${1:?Usage: $0 <ACCOUNT_URL>}"
+USERNAME=$(echo "$ACCOUNT_URL" | grep -oP '(?<=@)[^/?]+')
+OUTPUT_DIR="./${USERNAME}"
 
 mkdir -p "$OUTPUT_DIR"
 
@@ -28,7 +30,8 @@ yt-dlp \
   --max-sleep-interval 8 \
   --ignore-errors \
   --no-abort-on-error \
-  --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+  "$ACCOUNT_URL"
 
 echo ""
 echo "Saved to: $OUTPUT_DIR"
