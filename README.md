@@ -19,7 +19,8 @@ aka Elle's infinite to-do list
   - [x] Facebook - [mikf/gallery-dl](https://github.com/mikf/gallery-dl) , [JDownloader2](https://jdownloader.org/) 
   - [x] TikTok - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
   - [x] YouTube - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [x] Verify Wayback Machine functionality
+- [x] Party Website
+  - [x] Verify Wayback Machine + Downloader functionality [wayback-machine-downloader](https://github.com/StrawberryMaster/wayback-machine-downloader)
 ### Raw Data Collection
 | Platform | One Nation | Pauline Hanson |
 |---------|:---------:|:---------:|
@@ -28,8 +29,8 @@ aka Elle's infinite to-do list
 | Facebook | <ul><li>- [x] </li></ul> |  <ul><li>- [x] </li></ul> |
 | TikTok | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 | YouTube | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
+| Party Website | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
 
-- [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
 ### Data Processing
   - [ ] Filter posts outside of date range
   - [ ] Deduplicate images/videos with [idealo/imagededup](https://github.com/idealo/imagededup)
