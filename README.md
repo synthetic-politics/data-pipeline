@@ -12,7 +12,7 @@ To view scripts and code see [here](/scripts)
 # Task Checklist
 aka Elle's infinite to-do list
 ## One Nation
-### <ul><li>- [x] </li></ul> Preparation 
+### Preparation 
 - [x] Identify scrapers & verify functionality
   - [x] Instagram - [IG Grab](https://addons.mozilla.org/en-US/firefox/addon/ig-grab/)
   - [x] Twitter/X - [mikf/gallery-dl](https://github.com/mikf/gallery-dl)
@@ -20,7 +20,6 @@ aka Elle's infinite to-do list
   - [x] TikTok - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
   - [x] YouTube - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [x] Verify Wayback Machine functionality
-- [ ] Verify Trove functionality
 ### Raw Data Collection
 | Platform | One Nation | Pauline Hanson |
 |---------|:---------:|:---------:|
@@ -31,7 +30,6 @@ aka Elle's infinite to-do list
 | YouTube | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 
 - [ ] Party Website (via [Wayback Machine](https://web.archive.org/))
-- [ ] Physical Advertisements (via [Trove](https://trove.nla.gov.au/))
 ### Data Processing
   - [ ] Filter posts outside of date range
   - [ ] Deduplicate images/videos with [idealo/imagededup](https://github.com/idealo/imagededup)
