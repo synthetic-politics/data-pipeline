@@ -6,7 +6,7 @@ set -euo pipefail
 
 ACCOUNT_URL="${1:?Usage: $0 <ACCOUNT_URL>}"
 USERNAME=$(echo "$ACCOUNT_URL" | grep -oP '(?<=facebook\.com/)[^/?]+')
-OUTPUT_DIR="./data/one-nation/facebook/${USERNAME}"
+OUTPUT_DIR="../../data//one-nation/facebook/${USERNAME}"
 mkdir -p "$OUTPUT_DIR"
 
 gallery-dl \
