@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# https://www.tiktok.com/@paulinehansononenation
+# https://www.tiktok.com/@onenationoz
+
+# env
+DATE_AFTER="20250103"
+DATE_BEFORE="20250504"
+OUTPUT_DIR="./tiktok_downloads"
+
+mkdir -p "$OUTPUT_DIR"
+
+#cmd
+yt-dlp \
+  --dateafter  "$DATE_AFTER" \
+  --datebefore "$DATE_BEFORE" \
+  --output "$OUTPUT_DIR/%(upload_date)s_%(id)s_%(title).80s.%(ext)s" \
+  --write-info-json \
+  --write-thumbnail \
+  --write-description \
+  --format "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" \
+  --retries 10 \
+  --fragment-retries 10 \
+  --retry-sleep 5 \
+  --sleep-requests 2 \
+  --sleep-interval 3 \
+  --max-sleep-interval 8 \
+  --ignore-errors \
+  --no-abort-on-error \
+  --add-header "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+echo ""
+echo "Saved to: $OUTPUT_DIR"
