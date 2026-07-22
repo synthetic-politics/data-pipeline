@@ -25,10 +25,10 @@ aka Elle's infinite to-do list
 | Facebook | <ul><li>- [x] </li></ul> |  <ul><li>- [x] </li></ul> |
 | TikTok | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 | YouTube | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
-| Party Website | <ul><li>- [ ] </li></ul> | <ul><li>- [ ] </li></ul> |
+| Party Website | <ul><li>- [x] </li></ul> | <ul><li>- [x] </li></ul> |
 
 ### Data Processing
-  - [ ] Filter posts outside of date range
+  - [x] Filter posts outside of date range
   - [ ] Deduplicate images/videos with [idealo/imagededup](https://github.com/idealo/imagededup)
   - [ ] Format file structure
 ### Data Analysis
