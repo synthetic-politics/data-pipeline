@@ -29,11 +29,9 @@ aka Elle's infinite to-do list
 
 ### Data Processing
   - [x] Filter posts outside of date range
-  - [ ] Deduplicate images with [idealo/imagededup](https://github.com/idealo/imagededup)
-  - [ ] Deduplicate videos with [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
-  - [ ] Format file structure
+  - [x] Deduplicate images with [idealo/imagededup](https://github.com/idealo/imagededup)
+  - [x] Deduplicate videos with [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 ### Data Analysis
-- [ ] TruthScan computer analysis for AI
 - [ ] Human analysis for AI
 ### Completed
  - [ ] Verified total non-use of AI imagery
