@@ -4,7 +4,6 @@
 import argparse
 import logging
 import shutil
-import sys
 from pathlib import Path
 from PIL import Image
 
@@ -28,11 +27,10 @@ def safe_dest(src: Path, dest_dir: Path) -> Path:
     return candidate
 
 def collect(source_dir: Path, output_dir: Path) -> int:
-    all_files = [p for p in source_dir.rglob("*") if p.is_file()]
     output_dir.mkdir(parents=True, exist_ok=True)
     copied = 0
-    for src in all_files:
-        if is_image(src):
+    for src in source_dir.rglob("*"):
+        if src.is_file() and is_image(src):
             shutil.copy2(src, safe_dest(src, output_dir))
             copied += 1
     log.info("Copied %d image(s)", copied)
@@ -79,9 +77,6 @@ def main():
     args = p.parse_args()
     input_dir = Path(args.input).expanduser().resolve()
     output_dir = Path(args.output).expanduser().resolve()
-    if not input_dir.exists():
-        log.error("Input directory not found: %s", input_dir)
-        sys.exit(1)
     if collect(input_dir, output_dir) > 0:
         deduplicate(output_dir, args.max_distance)
 
