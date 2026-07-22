@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
 # python run.py --input ../../data/one-nation/00_raw/ --output ../../data/one-nation/01_deduplicate
-# dependencies: imagededup Pillow tqdm
-
+# dependencies: imagededup Pillow
 import argparse
 import logging
 import shutil
 import sys
 from pathlib import Path
-
 from PIL import Image
-from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(message)s", datefmt="%H:%M:%S")
 log = logging.getLogger(__name__)
@@ -34,11 +31,10 @@ def collect(source_dir: Path, output_dir: Path) -> int:
     all_files = [p for p in source_dir.rglob("*") if p.is_file()]
     output_dir.mkdir(parents=True, exist_ok=True)
     copied = 0
-    for src in tqdm(all_files, desc="Collecting", unit="file"):
+    for src in all_files:
         if is_image(src):
             shutil.copy2(src, safe_dest(src, output_dir))
             copied += 1
-
     log.info("Copied %d image(s)", copied)
     return copied
 
@@ -73,7 +69,6 @@ def deduplicate(output_dir: Path, max_distance: int) -> None:
         for loser in paths[1:]:
             loser.unlink()
             removed += 1
-
     log.info("Removed %d duplicate(s)", removed)
 
 def main():
@@ -82,14 +77,11 @@ def main():
     p.add_argument("--output", "-o", required=True)
     p.add_argument("--max-distance", "-d", type=int, default=10)
     args = p.parse_args()
-
     input_dir = Path(args.input).expanduser().resolve()
     output_dir = Path(args.output).expanduser().resolve()
-
     if not input_dir.exists():
         log.error("Input directory not found: %s", input_dir)
         sys.exit(1)
-
     if collect(input_dir, output_dir) > 0:
         deduplicate(output_dir, args.max_distance)
 
