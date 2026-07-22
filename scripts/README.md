@@ -1,13 +1,16 @@
 # Packages & Environments for Reference
+rename to required-packages and symlink?
 
 pacman
 - ytdlp 2026.07.04-1
 - pyenv 1:2.7.3-1 
 - ruby 3.4.8-2
 - rubygems 3.6.9-1
+- python 3.14.6-1
 
 yay
 - jdownloader2 latest-22
+- videoduplicatefinder-cli-git 4.1.x.r39.g7ef1beb-1
 
 ruby
 - wayback_machine_downloader_straw 2.3.10
