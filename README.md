@@ -32,9 +32,9 @@ aka Elle's infinite to-do list
   - [x] Deduplicate images with [idealo/imagededup](https://github.com/idealo/imagededup)
   - [x] Deduplicate videos with [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 ### Data Analysis
-- [ ] Human analysis for AI
+- [x] Human analysis for AI
 ### Completed
- - [ ] Verified total non-use of AI imagery
+- [x] Verified total non-use of AI imagery
 
 ## Comparative Countries
 ### Preparation
