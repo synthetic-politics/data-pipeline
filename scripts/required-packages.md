@@ -15,4 +15,8 @@ ruby
 pyenv
 - (1) python 3.14.6
   - gallery-dl 1.32.5
+- (2) python 3.12.13
+  -  imagededup 0.3.3.post2
+  -  pillow 12.3.0
+
 
