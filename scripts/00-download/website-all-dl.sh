@@ -12,13 +12,17 @@ do
   domain=$(echo "$url" | sed 's|https://||;s|/\*||')
   $WMD "$url" \
     --only "$ONLY" \
+    --from 20250103 \
+    --to 20250504 \
     --concurrency 5 \
-    --directory "../../data/one-nation/website/onenation.org.au/${domain}/"
+    --directory "./${domain}/"
 done
- 
+
 for subdomain in i0 i1 i2; do
   $WMD "https://${subdomain}.wp.com/www.senatorhanson.com.au/*" \
     --only "$ONLY" \
+    --from 20250103 \
+    --to 20250504 \
     --concurrency 5 \
-    --directory "../../data/one-nation/website/onenation.org.au/${subdomain}.wp.com/"
+    --directory "./${subdomain}.wp.com/"
 done
