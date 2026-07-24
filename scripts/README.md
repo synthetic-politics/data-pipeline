@@ -29,7 +29,3 @@ pyenv
 - (2) python 3.12.13
   -  imagededup 0.3.3.post2
   -  pillow 12.3.0
- 
-pytohn
-
-
