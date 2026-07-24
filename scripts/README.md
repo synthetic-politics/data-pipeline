@@ -8,6 +8,14 @@ pacman
 - rubygems 3.6.9-1
 - python 3.14.6-1
 
+# Cuda stuff for OpenAI
+- python-openai-whisper 20250625-3
+- cuda 13.3.1-1
+- cudnn 9.24.0.43-1
+- python-pytorch-opt-cuda 2.13.0-4
+- python-torchvision-cuda 0.28.0-2
+
+
 yay
 - jdownloader2 latest-22
 - videoduplicatefinder-cli-git 4.1.x.r39.g7ef1beb-1
@@ -21,5 +29,7 @@ pyenv
 - (2) python 3.12.13
   -  imagededup 0.3.3.post2
   -  pillow 12.3.0
+ 
+pytohn
 
 
