@@ -14,7 +14,7 @@ pacman
 - cudnn 9.24.0.43-1
 - python-pytorch-opt-cuda 2.13.0-4
 - python-torchvision-cuda 0.28.0-2
-
+- python-triton 3.5.1-4 (For timestamping in whisper)
 
 yay
 - jdownloader2 latest-22
