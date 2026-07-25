@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# YES i know this is inefficient because I'm renaming again
+# but i didn't like the spacing format sue me
+
 SRC="$HOME/Desktop/data-pipeline/data/comparative-countries"
 DST="$HOME/Desktop/output"
 
