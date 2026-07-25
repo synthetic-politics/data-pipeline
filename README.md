@@ -59,9 +59,10 @@ aka Elle's infinite to-do list
 - [ ] Run PaddleOCR on non-English images (Optical Character Recognition) [PaddlePaddle/PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR)
   - [ ] Transcribe foreign characters -> Foreign text
   - [ ] Translate foreign text -> English
-- [ ] Run WhisperAI on non-English videos (Automatic Speech Recognition) [openai/whisper](https://github.com/openai/whisper)
-  - [ ] Transcribe foreign audio -> Foreign text
-  - [ ] Translate foreign text -> English text
+- [x] Run WhisperAI on non-English videos (Automatic Speech Recognition) [openai/whisper](https://github.com/openai/whisper)
+  - [x] Transcribe foreign audio -> Foreign text
+  - [x] Translate foreign text -> English text
+- [ ]Translate info files???
 ### Data Analysis
 - [ ] Preliminary Quantiative
   - [ ] TruthScan computer analysis for AI
