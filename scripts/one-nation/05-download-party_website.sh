@@ -7,7 +7,8 @@ for url in \
   "https://www.onenation.org.au/*" \
   "https://assets.nationbuilder.com/onenation/*" \
   "https://d3n8a8pro7vhmx.cloudfront.net/onenation/*" \
-  "https://www.senatorhanson.com.au/*"
+  "https://www.senatorhanson.com.au/*" \
+  "https://i0.wp.com/www.senatorhanson.com.au/*"
 do
   domain=$(echo "$url" | sed 's|https://||;s|/\*||')
   $WMD "$url" \
@@ -16,13 +17,4 @@ do
     --to 20250504 \
     --concurrency 5 \
     --directory "./${domain}/"
-done
-
-for subdomain in i0 i1 i2; do
-  $WMD "https://${subdomain}.wp.com/www.senatorhanson.com.au/*" \
-    --only "$ONLY" \
-    --from 20250103 \
-    --to 20250504 \
-    --concurrency 5 \
-    --directory "./${subdomain}.wp.com/"
 done
