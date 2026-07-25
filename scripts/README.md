@@ -1,14 +1,15 @@
 # Packages & Environments for Reference
-rename to required-packages and symlink?
-
 pacman
-- ytdlp 2026.07.04-1
+- python 3.14.6-1
 - pyenv 1:2.7.3-1 
+- ungoogled-chromium-bin 150.0.7871.181-1
+- firefox 153.0-1
+
+- ytdlp 2026.07.04-1
+
 - ruby 3.4.8-2
 - rubygems 3.6.9-1
-- python 3.14.6-1
 
-# Cuda stuff for OpenAI
 - python-openai-whisper 20250625-3
 - cuda 13.3.1-1
 - cudnn 9.24.0.43-1
@@ -24,8 +25,21 @@ ruby
 - wayback_machine_downloader_straw 2.3.10
 
 pyenv
-- (1) python 3.14.6
-  - gallery-dl 1.32.5
-- (2) python 3.12.13
+- python 3.12.13
   -  imagededup 0.3.3.post2
   -  pillow 12.3.0
+- python 3.14.6
+  - gallery-dl 1.32.5
+
+
+## Downloads
+### Instagram
+### FaceBook
+### Twitter/X
+### Tiktok
+### Youtube
+### Party Website
+## Processing
+### Depulication
+
+
