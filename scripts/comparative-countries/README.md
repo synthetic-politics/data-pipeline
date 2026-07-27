@@ -3,11 +3,13 @@
 
 Where --date-after is 120 days prior to the election date & --date before is election day +1 day (as date before is not inclusive)
 
+## 02 - Format Naming Schema
+python format.py <path/to/folder> 
 
-## 04 - Transcribe & Translate Audio
-python 3.14 whisper-script.py
+## 03 - Transcribe & Translate Audio
+python 3.14 whisper-script.py <path/to/folder> 
 
-## Translate Captions
+## 04 Translate Captions
 python3.11 txt.py <path/to/folder>
 
 ## OCR Text & Translate
