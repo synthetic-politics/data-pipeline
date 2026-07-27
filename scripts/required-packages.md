@@ -25,13 +25,22 @@
 - wayback_machine_downloader_straw 2.3.10
 
 ## pyenv
--python 3.11.15
-  - paddlepaddle_gpu-3.3.1
-  - Pillow==12.1.0
-  - safetensors==0.7.0
-  - nvidia-cuda-nvrtc==13.0.88
-  - nvidia-cuda-runtime==13.0.88
-  - cuda-python==13.0.3
+- python 3.11.15
+  - **OCR**
+    - paddlepaddle_gpu-3.3.1
+    - Pillow==12.1.0
+    - safetensors==0.7.0
+    - nvidia-cuda-nvrtc==13.0.88
+    - nvidia-cuda-runtime==13.0.88
+    - cuda-python==13.0.3
+  - **Translation**
+    - beautifulsoup4-4.15.0
+    - deep-translator-1.11.4
+    - langdetect-1.0.9 
+
+
+
+
 - python 3.12.13
   -  imagededup 0.3.3.post2
   -  pillow 12.3.0
