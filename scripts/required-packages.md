@@ -32,8 +32,6 @@
   - nvidia-cuda-nvrtc==13.0.88
   - nvidia-cuda-runtime==13.0.88
   - cuda-python==13.0.3
-
-
 - python 3.12.13
   -  imagededup 0.3.3.post2
   -  pillow 12.3.0
