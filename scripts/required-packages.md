@@ -1,6 +1,6 @@
 # Packages & Environments for Reference
 ## pacman
-#### General
+### General
 - python 3.14.6-1
 - pyenv 1:2.7.3-1 
 - ungoogled-chromium-bin 150.0.7871.181-1
@@ -9,7 +9,7 @@
 - ruby 3.4.8-2
 - rubygems 3.6.9-1
 
-#### Cuda
+### Cuda
 - python-openai-whisper 20250625-3
 - cuda 13.3.1-1
 - cudnn 9.24.0.43-1
