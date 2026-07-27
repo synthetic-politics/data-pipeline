@@ -1,6 +1,6 @@
 {
-    "#": "gallery-dl default configuration file",
-
+    "#": "gallery-dl configuration file",
+  
     "#": "full documentation at",
     "#": "https://gdl-org.github.io/docs/configuration.html",
 
@@ -10,9 +10,7 @@
         "content":
         {
             "name" : "metadata",
-            "#": "write one metadata file per downloaded file (not per post)",
             "filename": "{date} {date:%H:%M:%S}.txt",
-            "#": "write only the values for 'content' or 'description'",
             "mode" : "custom",
             "format": "{content|description}\n"
         }
