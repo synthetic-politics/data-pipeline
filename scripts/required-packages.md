@@ -26,7 +26,7 @@
 
 ## pyenv
 - python 3.11.15
-  - **OCR**
+  - **CUDA**
     - paddlepaddle_gpu-3.3.1
     - Pillow==12.1.0
     - safetensors==0.7.0
@@ -37,6 +37,9 @@
     - beautifulsoup4-4.15.0
     - deep-translator-1.11.4
     - langdetect-1.0.9 
+  - **OCR**
+    - paddleocr-3.7.0
+    - paddlex-3.7.2
 
 
 
