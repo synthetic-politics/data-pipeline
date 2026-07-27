@@ -39,8 +39,7 @@
   - gallery-dl 1.32.5
 
 
-Extensioins
-Firefox
+Firefox Extensions
   - ig-grab 2.2
   - cookie-quick-manager 0.5rc2
 
