@@ -7,12 +7,12 @@ Where --date-after is 120 days prior to the election date & --date before is ele
 python format.py <path/to/folder> 
 
 ## 03 - Transcribe & Translate Audio
-python 3.14 whisper-script.py <path/to/folder> 
+python 3.14 _whisper.py <path/to/folder> 
 
 ## 04 Translate Captions
 python3.11 txt.py <path/to/folder>
 
-## OCR Text & Translate
+## 05 - OCR Text & Translate
 python3.11 ocr.py <path/to/folder> <lang>
 
 Where lang is 2-letter ISO 639-1 language codes, e.g. de, en, nl
