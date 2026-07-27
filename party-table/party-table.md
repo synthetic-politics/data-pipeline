@@ -18,7 +18,7 @@ For an excel spreadsheet, download the party-table.xslx above
 | New Zealand[^nz] | New Zealand Loyal | N/A | Elizabeth Cooney (Liz Gunn) | N/A | 14 Oct 2023 | 16 Jun 2023 |
 | United States of America[^usa] | GOP | [@republicans](https://www.instagram.com/republicans/) | Donald Trump | [@realdonaldtrump](https://www.instagram.com/realdonaldtrump) | 05 Nov 2024 | 08 July 2024 |
 | Denmark | Danish People's Party | [@dansk_folkeparti_1995](https://www.instagram.com/dansk_folkeparti_1995) | Morten Messerschmidt | [@mrmesserschmidt](https://www.instagram.com/mrmesserschmidt) | 01 Nov 2022 | 04 July 2022 |
-| Italy | Brothers of Italy | [@fratelliditalia](https://www.instagram.com/fratelliditalia) | Giorgia Meloni | [@giorgiameloni](https://www.instagram.com/giorgiameloni/) | 25 Sept 2022 | 28 May 2022 |
+| Italy | Lega| [@legaofficial](https://www.instagram.com/legaofficial) | Matteo Salvini | [@matteosalviniofficial](https://www.instagram.com/matteosalviniofficial) | 25 Sept 2022 | 28 May 2022 |
 | Sweden | Sweden Democrats | [@sverigedemokraterna](https://www.instagram.com/sverigedemokraterna) | Jimmie Åkesson | [@akesson.jimmie](https://www.instagram.com/akesson.jimmie) | 11 Sept 2022 | 14 May 2022 |
 | Spain | Vox | [@vox_es](https://www.instagram.com/vox_es) | Santiago Abascal | [@santi_abascal](https://www.instagram.com/santi_abascal) | 23 July 2023 | 25 Mar 2023 |
 
