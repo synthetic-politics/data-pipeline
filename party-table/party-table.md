@@ -20,7 +20,7 @@
 | Netherlands | Party for Freedom | [@partijvoordevrijheidnl](https://www.instagram.com/partijvoordevrijheidnl) | Geert Wilders | [@geertwilders](https://www.instagram.com/geertwilders) | 09 June 2024 | 07 Feb 2024 |
 | Spain | Vox | [@vox_es](https://www.instagram.com/vox_es) | Santiago Abascal | [@santi_abascal](https://www.instagram.com/santi_abascal) | 23 July 2023 | 25 Mar 2023 |
 
-**Exclusions[^excl]**
+# Exclusions[^excl]
 
 | Country | Party | Party Instagram | Leader | Leader Instagram | Election Date | Scrape Date |
 |---|---|---|---|---|---|---|
