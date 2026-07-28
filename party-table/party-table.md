@@ -1,5 +1,5 @@
 # National/Federal Elections
-| Country[^order] | Party | Party Instagram | Leader | Leader Instagram | Election Date[^multi] | Scrape Start Date[^scrape] |
+| Country[^order] | Party | Party Instagram | Leader | Leader Instagram | Election Date[^multi] | Scrape Date[^scrape] |
 |---|---|---|---|---|---|---|
 | Australia | One Nation | [@onenationoz](https://www.instagram.com/onenationoz/) | Pauline Hanson | [@senatorpaulinehanson](https://www.instagram.com/senatorpaulinehanson) | 03 May 2025 | 03 Jan 2025 |
 | Canada | People's Party of Canada | [@peoplespca](https://www.instagram.com/peoplespca) | Maxime Bernier | [@hon.maximebernier](https://www.instagram.com/hon.maximebernier) | 28 Apr 2025 | 29 Dec 2024 |
@@ -10,10 +10,9 @@
 | Belgium | Vlaams Belang | [@vlaamsbelang](https://www.instagram.com/vlaamsbelang) | Tom Van Grieken | [@vangriekentom](https://www.instagram.com/vangriekentom) | 09 Jun 2024 | 10 Feb 2024 |
 | Germany | Alternative for Germany | [@afd.bund](https://www.instagram.com/afd.bund) | Alice Weidel | [@alice.weidel](https://www.instagram.com/alice.weidel) | 23 Feb 2025 | 26 Oct 2024 |
 
-# Patriots for Europe (European Union)
-| Country[^order] | Party | Party Instagram | Leader | Leader Instagram | Election Date End[^multi] | Scrape Date[^scrape] |
+# Patriots for Europe[^patriots] (European Union)[^eu]
+| Country | Party | Party Instagram | Leader | Leader Instagram | Election Date | Scrape Date |
 |---|---|---|---|---|---|---|
-| European Union[^eu] | Patriots for Europe | [@patriotsep](https://www.instagram.com/patriotsep/) | Jordan Bardella | [@jordanbardella](https://www.instagram.com/jordanbardella) | 09 June 2024 | 07 Feb 2024 |
 | Belgium | Vlaams Belang | [@vlaamsbelang](https://www.instagram.com/vlaamsbelang) | Tom Van Grieken | [@vangriekentom](https://www.instagram.com/vangriekentom) | 09 June 2024 | 07 Feb 2024 |
 | Denmark | Danish People's Party | [@dansk_folkeparti_1995](https://www.instagram.com/dansk_folkeparti_1995) | Morten Messerschmidt | [@mrmesserschmidt](https://www.instagram.com/mrmesserschmidt) | 09 June 2024 | 07 Feb 2024 |
 | France | National Rally | [@rassemblementnational_fr](https://www.instagram.com/rassemblementnational_fr) | Jordan Bardella | [@jordanbardella](https://www.instagram.com/jordanbardella) | 09 June 2024 | 07 Feb 2024 |
@@ -23,7 +22,7 @@
 
 **Exclusions[^excl]**
 
-| Country | Party | Party Instagram | Leader | Leader Instagram | Election Date End[^multi] | Scrape Date[^scrape] |
+| Country | Party | Party Instagram | Leader | Leader Instagram | Election Date | Scrape Date |
 |---|---|---|---|---|---|---|
 | New Zealand[^nz] | New Zealand Loyal | N/A | Elizabeth Cooney (Liz Gunn) | N/A | 14 Oct 2023 | 16 Jun 2023 |
 | United States of America[^usa] | GOP | [@republicans](https://www.instagram.com/republicans/) | Donald Trump | [@realdonaldtrump](https://www.instagram.com/realdonaldtrump) | 05 Nov 2024 | 08 July 2024 |
@@ -36,6 +35,7 @@
 [^multi]: Multiple/multi-day elections for some,  goes by end date
 [^scrape]: From 120 days prior, longer for cases of (2)
 [^france]: Elections on 30 Jun & 7 July (127 days)
+[^patriots]: Patriots party itself excluded as formed post-election
 [^eu]: Election from Jun 6 to Jun 9 (123 days)
 [^excl]: Elections pre-2024 excluded
 [^nz]: NZ First, Visions NZ and Freedom NZ are right-wing populist rather than far-right - NZ Loyal severe org issues, alt media platforms, deregistered
