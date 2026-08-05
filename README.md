@@ -62,7 +62,7 @@ aka Elle's infinite to-do list
 - [x] Run WhisperAI on non-English videos (Automatic Speech Recognition) [openai/whisper](https://github.com/openai/whisper)
   - [x] Transcribe foreign audio -> Foreign text
   - [x] Translate foreign text -> English text
-- [x]Translate info files - deep-translator
+- [x] Translate info files - deep-translator
 ### Data Analysis
 - [ ] Preliminary Quantiative
   - [ ] TruthScan computer analysis for AI
@@ -78,14 +78,6 @@ aka Elle's infinite to-do list
   - [ ] Identify themes that correlate most strongly with AI usage
 ### Completed
  - [ ] All data synthesised for final analysis
-
-## Further Literature to Review
-### Culture & Strategy:
-- [ ] Anglo-Celtic Australian Culture +
-- [ ]  **Perception** of Anglo-Celtic Australian culture shaping strategic choice
-  - [ ] Tall Poppy Syndrome
-  - [ ] Anti-intellectualism
-  - [ ] Aversion to / slow adoption of new technologies
     
 # Data Schema
 ```text
