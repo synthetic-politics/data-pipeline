@@ -56,13 +56,13 @@ aka Elle's infinite to-do list
 ### Data Processing
 - [x] Ingest and unzip bulk downloads
 - [x] Write & run script to filter posts outside of date range: scripts/reorganise-comparative-countries.py
-- [ ] Run PaddleOCR on non-English images (Optical Character Recognition) [PaddlePaddle/PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR)
-  - [ ] Transcribe foreign characters -> Foreign text
-  - [ ] Translate foreign text -> English
+- [x] Run PaddleOCR on non-English images (Optical Character Recognition) [PaddlePaddle/PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR)
+  - [x] Transcribe foreign characters -> Foreign text
+  - [x] Translate foreign text -> English
 - [x] Run WhisperAI on non-English videos (Automatic Speech Recognition) [openai/whisper](https://github.com/openai/whisper)
   - [x] Transcribe foreign audio -> Foreign text
   - [x] Translate foreign text -> English text
-- [ ]Translate info files???
+- [x]Translate info files - deep-translator
 ### Data Analysis
 - [ ] Preliminary Quantiative
   - [ ] TruthScan computer analysis for AI
@@ -86,18 +86,6 @@ aka Elle's infinite to-do list
   - [ ] Tall Poppy Syndrome
   - [ ] Anti-intellectualism
   - [ ] Aversion to / slow adoption of new technologies
-### Organisation & Capacity: * Expand this
- - [ ] One Nation organisational
- - [ ] One Nation capacity-based
-
-## Final Qualitative Analysis
-- [ ] Evaluate if passive or active
-- [ ] Evaluate pillars:
-  - [ ] Ideological (Discuss methodological findings, PHON vs rest)
-  - [ ] Organisation
-  - [ ] Capacity
-  - [ ] Culture
-  - [ ] Strategy
     
 # Data Schema
 ```text
