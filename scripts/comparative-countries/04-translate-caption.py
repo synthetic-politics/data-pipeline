@@ -1,26 +1,28 @@
 #!/usr/bin/env python3
-import re, os, sys
-from collections import defaultdict
+import sys
 from pathlib import Path
+from deep_translator import GoogleTranslator
+from langdetect import detect
 
-dir = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
-pat = re.compile(r'^(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}:\d{2})(?:_(\d+))?(?= |\.|_)')
+def translate_file(path: Path) -> None:
+    text = path.read_text(encoding="utf-8").strip()
+    if not text or detect(text) == "en":
+        return
+    src_lang = detect(text)
+    translator = GoogleTranslator(source=src_lang, target="en")
+    if len(text) > 4500:
+        chunks = [text[i:i + 4500] for i in range(0, len(text), 4500)]
+        translated = " ".join(translator.translate(chunk) for chunk in chunks)
+    else:
+        translated = translator.translate(text)
+    with path.open("a", encoding="utf-8") as f:
+        f.write("\n\n--- English Translation ---\n")
+        f.write(translated)
 
-# Group files by date, then by time within each date
-by_date = defaultdict(lambda: defaultdict(list))
-for f in sorted(dir.iterdir()):
-    if m := pat.match(f.name):
-        by_date[m.group(1)][m.group(2)].append(f)
+def main():
+    directory = Path(sys.argv[1])
+    for path in sorted(directory.glob("*.txt")):
+        translate_file(path)
 
-for date, times in by_date.items():
-    for i, (time, files) in enumerate(sorted(times.items())):
-        group = f"_({i+1})" if len(times) > 1 else ""
-        for f in files:
-            m = pat.match(f.name)
-            ext = f.suffix
-            if m.group(3):  # has _N index
-                new = f"{date}{group}_{int(m.group(3)):02d}{ext}"
-            else:            # info .txt
-                new = f"{date}{group}_info.txt"
-            f.rename(dir / new)
-            print(f"{f.name} -> {new}")
+if __name__ == "__main__":
+    main()
