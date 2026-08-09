@@ -18,7 +18,7 @@
 | France | National Rally | [@rassemblementnational_fr](https://www.instagram.com/rassemblementnational_fr) | Jordan Bardella | [@jordanbardella](https://www.instagram.com/jordanbardella) | 09 June 2024 | 07 Feb 2024 |
 | Italy | Lega | [@legaofficial](https://www.instagram.com/legaofficial) | Matteo Salvini | [@matteosalviniofficial](https://www.instagram.com/matteosalviniofficial) | 09 June 2024 | 07 Feb 2024 |
 | Netherlands | Party for Freedom | [@partijvoordevrijheidnl](https://www.instagram.com/partijvoordevrijheidnl) | Geert Wilders | [@geertwilders](https://www.instagram.com/geertwilders) | 09 June 2024 | 07 Feb 2024 |
-| Spain | Vox | [@vox_es](https://www.instagram.com/vox_es) | Santiago Abascal | [@santi_abascal](https://www.instagram.com/santi_abascal) | 23 July 2023 | 25 Mar 2023 |
+| Spain | Vox | [@vox_es](https://www.instagram.com/vox_es) | Santiago Abascal | [@santi_abascal](https://www.instagram.com/santi_abascal) | 09 June 2024 | 07 Feb 2024 |
 
 # Exclusions[^excl]
 
