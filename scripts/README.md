@@ -1,13 +1,14 @@
 # Packages & Environments for Reference
 ## pacman
 ### General
+- ffmpeg 9.0.1
+- firefox 153.0-1
 - python 3.14.6-1
 - pyenv 1:2.7.3-1 
-- ungoogled-chromium-bin 150.0.7871.181-1
-- firefox 153.0-1
-- ytdlp 2026.07.04-1
 - ruby 3.4.8-2
 - rubygems 3.6.9-1
+- ungoogled-chromium-bin 150.0.7871.181-1
+- ytdlp 2026.07.04-1
 
 ### Cuda
 - python-openai-whisper 20250625-3
