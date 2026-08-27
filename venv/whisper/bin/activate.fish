@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/elle/Desktop/DaPipeline/whisper/venv
+set -gx VIRTUAL_ENV /home/elle/synthetic-politics/venv/whisper
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

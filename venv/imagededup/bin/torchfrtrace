@@ -1,4 +1,4 @@
-#!/home/elle/Desktop/dedup/venv/bin/python
+#!/home/elle/synthetic-politics/venv/imagededup/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

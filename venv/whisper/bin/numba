@@ -1,4 +1,4 @@
-#!/home/elle/Desktop/DaPipeline/whisper/venv/bin/python
+#!/home/elle/synthetic-politics/venv/whisper/bin/python
 # -*- coding: UTF-8 -*-
 from __future__ import print_function, division, absolute_import
 

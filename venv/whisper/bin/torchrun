@@ -1,4 +1,4 @@
-#!/home/elle/Desktop/DaPipeline/whisper/venv/bin/python
+#!/home/elle/synthetic-politics/venv/whisper/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
