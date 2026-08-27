@@ -41,15 +41,18 @@
   - **OCR**
     - paddleocr-3.7.0
     - paddlex-3.7.2
-
-
-
-
 - python 3.12.13
   -  imagededup 0.3.3.post2
   -  pillow 12.3.0
 - python 3.14.6
   - gallery-dl 1.32.5
+ 
+## Pyenv Venv Configuration
+ - Whisper - 3.10.19
+ - gallery-dl - 3.14.6
+ - image dedup - 3.12.13
+ - paddleocr + deepocr thing - 3.11.15
+
 
 
 ## Firefox Extensions
