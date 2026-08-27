@@ -1,11 +1,12 @@
 data/**
 !data/README.md
 scripts/comparative-countries/*venv*/lib/
-scripts/comparative-countries/*venv*/lib64/
+scripts/comparative-countries/*venv*/lib64
 scripts/comparative-countries/*venv*/include/
 scripts/comparative-countries/*venv*/share/
 scripts/one-nation/*venv*/lib/
-scripts/one-nation/*venv*/lib64/
+scripts/one-nation/*venv*/lib64
 scripts/one-nation/*venv*/include/  
 scripts/one-nation/*venv*/share/
 
+#lib64 is a symlink, thus no trailing slash
