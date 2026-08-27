@@ -1,3 +1,6 @@
 data/**
 !data/README.md
-
+scripts/comparative-countries/*venv*/lib/
+scripts/comparative-countries/*venv*/lib64/
+scripts/one-nation/*venv*/lib/
+scripts/one-nation/*venv*/lib64/
